@@ -143,6 +143,11 @@ void loop(void) {
                 set_status("count");
                 count_update_screen();
             }
+            if (key == '#') { // PREGUNTAR DE NUEVO
+                piezas_contadas = 0;
+                set_status("ask");
+                break;
+            }
             else if (key == 'D') {
                 led_estado ^= 1;             // Toggle LED state
                 LED_LBK_LAT = led_estado;        // Write to LED pin
@@ -203,6 +208,7 @@ void main(void) {
     __delay_ms(50);
     
     INPUT_TRIS = 1;
+    LED_LBK_TRIS = 0;
     lcd_init();
     keypad_init();
     timer_init();
