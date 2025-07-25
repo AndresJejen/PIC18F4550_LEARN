@@ -12,35 +12,68 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/default/debug/Lab4.X.debug.o
-cinit CODE 0 7226 7226 2E 1 2
+cinit CODE 0 129C 129C 46 1 2
 idloc IDLOC 5 200000 200000 8 1 1
-text0 CODE 0 7336 7336 72 1 2
-text1 CODE 0 7928 7928 158 1 2
-text2 CODE 0 7A80 7A80 1DA 1 2
-text3 CODE 0 764A 764A E0 1 2
-text4 CODE 0 772A 772A F2 1 2
-text5 CODE 0 781C 781C 10C 1 2
-text6 CODE 0 74CE 74CE BA 1 2
-text7 CODE 0 7254 7254 36 1 2
-text8 CODE 0 71E2 71E2 1E 1 2
-text9 CODE 0 728A 728A 3A 1 2
-text10 CODE 0 7420 7420 AE 1 2
-text11 CODE 0 7588 7588 C2 1 2
-text12 CODE 0 72C4 72C4 72 1 2
-text13 CODE 0 71CA 71CA 18 1 2
-text14 CODE 0 7200 7200 26 1 2
-text15 CODE 0 73A8 73A8 78 1 2
-text16 CODE 0 71BA 71BA 10 1 2
-text17 CODE 0 71B0 71B0 A 1 2
-idataCOMRAM CODE 0 71AE 71AE 2 1 1
-cstackCOMRAM COMRAM 1 1 1 18 1 1
-dataCOMRAM COMRAM 1 21 21 2 1 1
-bssCOMRAM COMRAM 1 19 19 8 1 1
-mediumconst MEDIUMCONST 0 7C5A 7C5A E2 1 2
+intcode_body CODE 0 D98 D98 AE 1 2
+text0 CODE 0 B56 B56 CE 1 2
+text1 CODE 0 1534 1534 1A 1 2
+text2 CODE 0 15C2 15C2 12 1 2
+text3 CODE 0 288 288 200 1 2
+text4 CODE 0 12 12 276 1 2
+text5 CODE 0 972 972 100 1 2
+text6 CODE 0 E46 E46 AA 1 2
+text7 CODE 0 60E 60E 134 1 2
+text8 CODE 0 15D4 15D4 12 1 2
+text9 CODE 0 742 742 122 1 2
+text10 CODE 0 CE8 CE8 B0 1 2
+text11 CODE 0 C24 C24 C4 1 2
+text12 CODE 0 864 864 10E 1 2
+text13 CODE 0 1582 1582 18 1 2
+text14 CODE 0 15E6 15E6 12 1 2
+text15 CODE 0 F9A F9A 86 1 2
+text16 CODE 0 1514 1514 20 1 2
+text17 CODE 0 A72 A72 E4 1 2
+text18 CODE 0 1366 1366 3E 1 2
+text19 CODE 0 124A 124A 52 1 2
+text20 CODE 0 14F2 14F2 22 1 2
+text21 CODE 0 109C 109C 74 1 2
+text22 CODE 0 163A 163A A 1 2
+text23 CODE 0 11E8 11E8 62 1 2
+text24 CODE 0 13E2 13E2 38 1 2
+text25 CODE 0 14AA 14AA 24 1 2
+text26 CODE 0 13A4 13A4 3E 1 2
+text27 CODE 0 154E 154E 1A 1 2
+text28 CODE 0 1452 1452 2E 1 2
+text29 CODE 0 1020 1020 7C 1 2
+text30 CODE 0 160A 160A 10 1 2
+text31 CODE 0 161A 161A 10 1 2
+text32 CODE 0 15F8 15F8 12 1 2
+text34 CODE 0 12E2 12E2 42 1 2
+text35 CODE 0 162A 162A 10 1 2
+text36 CODE 0 14CE 14CE 24 1 2
+text37 CODE 0 1480 1480 2A 1 2
+text38 CODE 0 159A 159A 16 1 2
+text39 CODE 0 1568 1568 1A 1 2
+text40 CODE 0 141A 141A 38 1 2
+text41 CODE 0 1324 1324 42 1 2
+text42 CODE 0 488 488 186 1 2
+text43 CODE 0 EF0 EF0 AA 1 2
+text44 CODE 0 1644 1644 2 1 2
+text45 CODE 0 1184 1184 64 1 2
+text46 CODE 0 1110 1110 74 1 2
+cstackCOMRAM COMRAM 1 1 1 4C 1 1
+cstackBANK0 BANK0 1 88 88 21 1 1
+temp COMRAM 1 56 56 1 1 1
+bssBANK0 BANK0 1 60 60 28 1 1
+intcode CODE 0 8 8 6 1 2
+idataBANK0 CODE 0 15B0 15B0 12 1 1
+dataBANK0 BANK0 1 A9 A9 12 1 1
+bssCOMRAM COMRAM 1 4D 4D 9 1 1
+mediumconst MEDIUMCONST 0 7C3A 7C3A 106 1 2
 config CONFIG 4 300000 300000 E 1 1
-$/tmp/xcgqjGhkP/driver_tmp_9.o
+$/tmp/xcJj03KOt/driver_tmp_14.o
 idloc IDLOC 5 200000 200000 8 1 1
-init CODE 0 7D3C 7D3C 4 1 2
+init CODE 0 E E 4 1 2
 reset_vec CODE 0 0 0 6 1 2
 config CONFIG 4 300000 300000 E 1 1
 # %UNUSED Section
@@ -49,7 +82,7 @@ config CONFIG 4 300000 300000 E 1 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 60-3EE 1
+RAM BB-3EE 1
 RAM 400-7FF 1
 SFR F60-F9B 1
 SFR F9D-FD3 1
@@ -57,7 +90,7 @@ SFR FD5-FDA 1
 SFR FE0-FE2 1
 SFR FE8-FEA 1
 SFR FF0-FFB 1
-BANK0 60-FF 1
+BANK0 BB-FF 1
 BANK1 100-1FF 1
 BANK2 200-2FF 1
 BANK3 300-3EE 1
@@ -65,10 +98,13 @@ BANK4 400-4FF 1
 BANK5 500-5FF 1
 BANK6 600-6FF 1
 BANK7 700-7FF 1
-CONST 6-71AD 1
-SMALLCONST 800-71AD 1
-CODE 6-71AD 1
-BIGRAM 23-3EE 1
+CONST 6-7 1
+CONST 1646-7C39 1
+SMALLCONST 1646-7C39 1
+CODE 6-7 1
+CODE 1646-7C39 1
+BIGRAM 57-5F 1
+BIGRAM BB-3EE 1
 BIGRAM 400-7FF 1
 BIGSFR F60-F9B 1
 BIGSFR F9D-FD3 1
@@ -76,9 +112,9 @@ BIGSFR FD5-FDA 1
 BIGSFR FE0-FE2 1
 BIGSFR FE8-FEA 1
 BIGSFR FF0-FFB 1
-COMRAM 23-5F 1
+COMRAM 57-5F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 800-71AD 1
+MEDIUMCONST 1646-7C39 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -93,270 +129,610 @@ MEDIUMCONST 800-71AD 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/debug/Lab4.X.debug.o
-71B0 text17 CODE >11:/Users/andresjc/Desktop/Lab4.X/keypad.c
-71B0 text17 CODE >12:/Users/andresjc/Desktop/Lab4.X/keypad.c
-71B4 text17 CODE >13:/Users/andresjc/Desktop/Lab4.X/keypad.c
-71B8 text17 CODE >14:/Users/andresjc/Desktop/Lab4.X/keypad.c
-71BA text16 CODE >5:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71BA text16 CODE >6:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71BE text16 CODE >7:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71C8 text16 CODE >8:/Users/andresjc/Desktop/Lab4.X/lcd.c
-73A8 text15 CODE >10:/Users/andresjc/Desktop/Lab4.X/lcd.c
-73AA text15 CODE >11:/Users/andresjc/Desktop/Lab4.X/lcd.c
-73BE text15 CODE >12:/Users/andresjc/Desktop/Lab4.X/lcd.c
-73D8 text15 CODE >13:/Users/andresjc/Desktop/Lab4.X/lcd.c
-73F8 text15 CODE >14:/Users/andresjc/Desktop/Lab4.X/lcd.c
-741A text15 CODE >15:/Users/andresjc/Desktop/Lab4.X/lcd.c
-741E text15 CODE >16:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7200 text14 CODE >18:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7202 text14 CODE >19:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7204 text14 CODE >20:/Users/andresjc/Desktop/Lab4.X/lcd.c
-720C text14 CODE >21:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7214 text14 CODE >22:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7224 text14 CODE >23:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71CA text13 CODE >32:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71CA text13 CODE >33:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71D0 text13 CODE >34:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71E0 text13 CODE >35:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72C4 text12 CODE >46:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72C4 text12 CODE >47:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72C6 text12 CODE >48:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72C8 text12 CODE >50:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72CA text12 CODE >51:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72CC text12 CODE >52:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72CE text12 CODE >53:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72D0 text12 CODE >54:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72DE text12 CODE >56:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72E0 text12 CODE >57:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72F4 text12 CODE >58:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7302 text12 CODE >59:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7310 text12 CODE >60:/Users/andresjc/Desktop/Lab4.X/lcd.c
-731E text12 CODE >62:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7324 text12 CODE >63:/Users/andresjc/Desktop/Lab4.X/lcd.c
-732A text12 CODE >64:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7330 text12 CODE >65:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7334 text12 CODE >66:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7588 text11 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7588 text11 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-758A text11 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7598 text11 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75A0 text11 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75A4 text11 CODE >18:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75B2 text11 CODE >19:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75BA text11 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75BE text11 CODE >22:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75C6 text11 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75D8 text11 CODE >24:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75DC text11 CODE >25:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75E0 text11 CODE >26:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75E6 text11 CODE >27:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75E8 text11 CODE >25:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75F6 text11 CODE >30:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-75FC text11 CODE >31:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7612 text11 CODE >32:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-761A text11 CODE >33:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-761C text11 CODE >35:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7622 text11 CODE >36:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7628 text11 CODE >38:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7638 text11 CODE >39:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7640 text11 CODE >40:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7648 text11 CODE >41:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
-7420 text10 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7420 text10 CODE >12:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7422 text10 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7430 text10 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7438 text10 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-743C text10 CODE >17:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-744A text10 CODE >18:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7452 text10 CODE >19:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7464 text10 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7468 text10 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-746C text10 CODE >22:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7472 text10 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7474 text10 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7482 text10 CODE >26:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-7498 text10 CODE >27:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-74A0 text10 CODE >28:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-74A6 text10 CODE >29:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-74AC text10 CODE >31:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-74BC text10 CODE >32:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-74C4 text10 CODE >33:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-74CC text10 CODE >34:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
-728A text9 CODE >37:/Users/andresjc/Desktop/Lab4.X/lcd.c
-728C text9 CODE >38:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72BC text9 CODE >39:/Users/andresjc/Desktop/Lab4.X/lcd.c
-72C2 text9 CODE >40:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71E2 text8 CODE >25:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71E4 text8 CODE >26:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71E6 text8 CODE >27:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71EE text8 CODE >28:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71F6 text8 CODE >29:/Users/andresjc/Desktop/Lab4.X/lcd.c
-71FE text8 CODE >30:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7254 text7 CODE >42:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7254 text7 CODE >43:/Users/andresjc/Desktop/Lab4.X/lcd.c
-7288 text7 CODE >44:/Users/andresjc/Desktop/Lab4.X/lcd.c
-74CE text6 CODE >95:/Users/andresjc/Desktop/Lab4.X/main.c
-74CE text6 CODE >97:/Users/andresjc/Desktop/Lab4.X/main.c
-74D2 text6 CODE >98:/Users/andresjc/Desktop/Lab4.X/main.c
-74DC text6 CODE >99:/Users/andresjc/Desktop/Lab4.X/main.c
-74E8 text6 CODE >100:/Users/andresjc/Desktop/Lab4.X/main.c
-74F2 text6 CODE >101:/Users/andresjc/Desktop/Lab4.X/main.c
-750C text6 CODE >102:/Users/andresjc/Desktop/Lab4.X/main.c
-7526 text6 CODE >104:/Users/andresjc/Desktop/Lab4.X/main.c
-7530 text6 CODE >105:/Users/andresjc/Desktop/Lab4.X/main.c
-753C text6 CODE >106:/Users/andresjc/Desktop/Lab4.X/main.c
-7546 text6 CODE >107:/Users/andresjc/Desktop/Lab4.X/main.c
-7566 text6 CODE >108:/Users/andresjc/Desktop/Lab4.X/main.c
-7586 text6 CODE >109:/Users/andresjc/Desktop/Lab4.X/main.c
-781C text5 CODE >5:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-781C text5 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-7824 text5 CODE >8:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-7826 text5 CODE >9:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-782A text5 CODE >10:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-782C text5 CODE >9:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-7862 text5 CODE >12:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-787A text5 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-787E text5 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-7880 text5 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-7884 text5 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-78A0 text5 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-78D4 text5 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-78F2 text5 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-7926 text5 CODE >24:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
-772A text4 CODE >16:/Users/andresjc/Desktop/Lab4.X/keypad.c
-772A text4 CODE >17:/Users/andresjc/Desktop/Lab4.X/keypad.c
-7740 text4 CODE >18:/Users/andresjc/Desktop/Lab4.X/keypad.c
-775E text4 CODE >19:/Users/andresjc/Desktop/Lab4.X/keypad.c
-7766 text4 CODE >21:/Users/andresjc/Desktop/Lab4.X/keypad.c
-7768 text4 CODE >22:/Users/andresjc/Desktop/Lab4.X/keypad.c
-7798 text4 CODE >23:/Users/andresjc/Desktop/Lab4.X/keypad.c
-77C8 text4 CODE >24:/Users/andresjc/Desktop/Lab4.X/keypad.c
-77D8 text4 CODE >25:/Users/andresjc/Desktop/Lab4.X/keypad.c
-7800 text4 CODE >27:/Users/andresjc/Desktop/Lab4.X/keypad.c
-7812 text4 CODE >28:/Users/andresjc/Desktop/Lab4.X/keypad.c
-7818 text4 CODE >29:/Users/andresjc/Desktop/Lab4.X/keypad.c
-781A text4 CODE >30:/Users/andresjc/Desktop/Lab4.X/keypad.c
-764A text3 CODE >20:/Users/andresjc/Desktop/Lab4.X/main.c
-764A text3 CODE >21:/Users/andresjc/Desktop/Lab4.X/main.c
-7652 text3 CODE >22:/Users/andresjc/Desktop/Lab4.X/main.c
-766E text3 CODE >25:/Users/andresjc/Desktop/Lab4.X/main.c
-768A text3 CODE >28:/Users/andresjc/Desktop/Lab4.X/main.c
-76A6 text3 CODE >31:/Users/andresjc/Desktop/Lab4.X/main.c
-76C2 text3 CODE >34:/Users/andresjc/Desktop/Lab4.X/main.c
-76DE text3 CODE >37:/Users/andresjc/Desktop/Lab4.X/main.c
-76F6 text3 CODE >38:/Users/andresjc/Desktop/Lab4.X/main.c
-76FA text3 CODE >39:/Users/andresjc/Desktop/Lab4.X/main.c
-7704 text3 CODE >40:/Users/andresjc/Desktop/Lab4.X/main.c
-7710 text3 CODE >41:/Users/andresjc/Desktop/Lab4.X/main.c
-771A text3 CODE >42:/Users/andresjc/Desktop/Lab4.X/main.c
-7726 text3 CODE >44:/Users/andresjc/Desktop/Lab4.X/main.c
-7728 text3 CODE >46:/Users/andresjc/Desktop/Lab4.X/main.c
-7A80 text2 CODE >48:/Users/andresjc/Desktop/Lab4.X/main.c
-7A80 text2 CODE >49:/Users/andresjc/Desktop/Lab4.X/main.c
-7A8C text2 CODE >54:/Users/andresjc/Desktop/Lab4.X/main.c
-7A8C text2 CODE >55:/Users/andresjc/Desktop/Lab4.X/main.c
-7A94 text2 CODE >56:/Users/andresjc/Desktop/Lab4.X/main.c
-7A98 text2 CODE >57:/Users/andresjc/Desktop/Lab4.X/main.c
-7AA4 text2 CODE >58:/Users/andresjc/Desktop/Lab4.X/main.c
-7AAE text2 CODE >59:/Users/andresjc/Desktop/Lab4.X/main.c
-7AB4 text2 CODE >62:/Users/andresjc/Desktop/Lab4.X/main.c
-7ABA text2 CODE >63:/Users/andresjc/Desktop/Lab4.X/main.c
-7AF6 text2 CODE >64:/Users/andresjc/Desktop/Lab4.X/main.c
-7B06 text2 CODE >65:/Users/andresjc/Desktop/Lab4.X/main.c
-7B0C text2 CODE >66:/Users/andresjc/Desktop/Lab4.X/main.c
-7B3C text2 CODE >67:/Users/andresjc/Desktop/Lab4.X/main.c
-7B46 text2 CODE >68:/Users/andresjc/Desktop/Lab4.X/main.c
-7B4C text2 CODE >69:/Users/andresjc/Desktop/Lab4.X/main.c
-7B56 text2 CODE >70:/Users/andresjc/Desktop/Lab4.X/main.c
-7B5C text2 CODE >71:/Users/andresjc/Desktop/Lab4.X/main.c
-7B72 text2 CODE >72:/Users/andresjc/Desktop/Lab4.X/main.c
-7B7C text2 CODE >73:/Users/andresjc/Desktop/Lab4.X/main.c
-7B8C text2 CODE >74:/Users/andresjc/Desktop/Lab4.X/main.c
-7BC2 text2 CODE >75:/Users/andresjc/Desktop/Lab4.X/main.c
-7BC8 text2 CODE >76:/Users/andresjc/Desktop/Lab4.X/main.c
-7BD4 text2 CODE >77:/Users/andresjc/Desktop/Lab4.X/main.c
-7BDA text2 CODE >79:/Users/andresjc/Desktop/Lab4.X/main.c
-7BE6 text2 CODE >80:/Users/andresjc/Desktop/Lab4.X/main.c
-7BEA text2 CODE >81:/Users/andresjc/Desktop/Lab4.X/main.c
-7BF6 text2 CODE >82:/Users/andresjc/Desktop/Lab4.X/main.c
-7C00 text2 CODE >83:/Users/andresjc/Desktop/Lab4.X/main.c
-7C0C text2 CODE >84:/Users/andresjc/Desktop/Lab4.X/main.c
-7C22 text2 CODE >85:/Users/andresjc/Desktop/Lab4.X/main.c
-7C2E text2 CODE >86:/Users/andresjc/Desktop/Lab4.X/main.c
-7C32 text2 CODE >88:/Users/andresjc/Desktop/Lab4.X/main.c
-7C44 text2 CODE >89:/Users/andresjc/Desktop/Lab4.X/main.c
-7C54 text2 CODE >90:/Users/andresjc/Desktop/Lab4.X/main.c
-7C58 text2 CODE >93:/Users/andresjc/Desktop/Lab4.X/main.c
-7928 text1 CODE >111:/Users/andresjc/Desktop/Lab4.X/main.c
-7928 text1 CODE >112:/Users/andresjc/Desktop/Lab4.X/main.c
-7928 text1 CODE >113:/Users/andresjc/Desktop/Lab4.X/main.c
-7934 text1 CODE >114:/Users/andresjc/Desktop/Lab4.X/main.c
-793A text1 CODE >115:/Users/andresjc/Desktop/Lab4.X/main.c
-793E text1 CODE >117:/Users/andresjc/Desktop/Lab4.X/main.c
-7944 text1 CODE >118:/Users/andresjc/Desktop/Lab4.X/main.c
-7956 text1 CODE >119:/Users/andresjc/Desktop/Lab4.X/main.c
-7958 text1 CODE >120:/Users/andresjc/Desktop/Lab4.X/main.c
-7964 text1 CODE >121:/Users/andresjc/Desktop/Lab4.X/main.c
-7968 text1 CODE >122:/Users/andresjc/Desktop/Lab4.X/main.c
-796C text1 CODE >123:/Users/andresjc/Desktop/Lab4.X/main.c
-797E text1 CODE >124:/Users/andresjc/Desktop/Lab4.X/main.c
-7980 text1 CODE >125:/Users/andresjc/Desktop/Lab4.X/main.c
-798C text1 CODE >126:/Users/andresjc/Desktop/Lab4.X/main.c
-7990 text1 CODE >128:/Users/andresjc/Desktop/Lab4.X/main.c
-79BA text1 CODE >129:/Users/andresjc/Desktop/Lab4.X/main.c
-79BC text1 CODE >130:/Users/andresjc/Desktop/Lab4.X/main.c
-79C8 text1 CODE >131:/Users/andresjc/Desktop/Lab4.X/main.c
-79CC text1 CODE >133:/Users/andresjc/Desktop/Lab4.X/main.c
-79DE text1 CODE >134:/Users/andresjc/Desktop/Lab4.X/main.c
-79EE text1 CODE >135:/Users/andresjc/Desktop/Lab4.X/main.c
-79EE text1 CODE >136:/Users/andresjc/Desktop/Lab4.X/main.c
-7A18 text1 CODE >137:/Users/andresjc/Desktop/Lab4.X/main.c
-7A24 text1 CODE >138:/Users/andresjc/Desktop/Lab4.X/main.c
-7A28 text1 CODE >139:/Users/andresjc/Desktop/Lab4.X/main.c
-7A32 text1 CODE >140:/Users/andresjc/Desktop/Lab4.X/main.c
-7A3E text1 CODE >141:/Users/andresjc/Desktop/Lab4.X/main.c
-7A48 text1 CODE >142:/Users/andresjc/Desktop/Lab4.X/main.c
-7A54 text1 CODE >145:/Users/andresjc/Desktop/Lab4.X/main.c
-7A64 text1 CODE >146:/Users/andresjc/Desktop/Lab4.X/main.c
-7A66 text1 CODE >147:/Users/andresjc/Desktop/Lab4.X/main.c
-7A78 text1 CODE >148:/Users/andresjc/Desktop/Lab4.X/main.c
-7336 text0 CODE >157:/Users/andresjc/Desktop/Lab4.X/main.c
-7336 text0 CODE >159:/Users/andresjc/Desktop/Lab4.X/main.c
-733A text0 CODE >160:/Users/andresjc/Desktop/Lab4.X/main.c
-7348 text0 CODE >161:/Users/andresjc/Desktop/Lab4.X/main.c
-7356 text0 CODE >163:/Users/andresjc/Desktop/Lab4.X/main.c
-735A text0 CODE >164:/Users/andresjc/Desktop/Lab4.X/main.c
-735E text0 CODE >166:/Users/andresjc/Desktop/Lab4.X/main.c
-7368 text0 CODE >167:/Users/andresjc/Desktop/Lab4.X/main.c
-7374 text0 CODE >169:/Users/andresjc/Desktop/Lab4.X/main.c
-737E text0 CODE >170:/Users/andresjc/Desktop/Lab4.X/main.c
-738A text0 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
-73A0 text0 CODE >173:/Users/andresjc/Desktop/Lab4.X/main.c
-73A4 text0 CODE >175:/Users/andresjc/Desktop/Lab4.X/main.c
-7226 cinit CODE >1500:/tmp/xcgqjGhkP/driver_tmp_1.s
-7226 cinit CODE >1502:/tmp/xcgqjGhkP/driver_tmp_1.s
-7226 cinit CODE >1505:/tmp/xcgqjGhkP/driver_tmp_1.s
-7226 cinit CODE >1538:/tmp/xcgqjGhkP/driver_tmp_1.s
-7228 cinit CODE >1539:/tmp/xcgqjGhkP/driver_tmp_1.s
-722A cinit CODE >1540:/tmp/xcgqjGhkP/driver_tmp_1.s
-722C cinit CODE >1541:/tmp/xcgqjGhkP/driver_tmp_1.s
-722E cinit CODE >1542:/tmp/xcgqjGhkP/driver_tmp_1.s
-7230 cinit CODE >1543:/tmp/xcgqjGhkP/driver_tmp_1.s
-7232 cinit CODE >1544:/tmp/xcgqjGhkP/driver_tmp_1.s
-7234 cinit CODE >1545:/tmp/xcgqjGhkP/driver_tmp_1.s
-7238 cinit CODE >1546:/tmp/xcgqjGhkP/driver_tmp_1.s
-723A cinit CODE >1547:/tmp/xcgqjGhkP/driver_tmp_1.s
-723E cinit CODE >1551:/tmp/xcgqjGhkP/driver_tmp_1.s
-7242 cinit CODE >1552:/tmp/xcgqjGhkP/driver_tmp_1.s
-7244 cinit CODE >1553:/tmp/xcgqjGhkP/driver_tmp_1.s
-7244 cinit CODE >1554:/tmp/xcgqjGhkP/driver_tmp_1.s
-7246 cinit CODE >1555:/tmp/xcgqjGhkP/driver_tmp_1.s
-7248 cinit CODE >1556:/tmp/xcgqjGhkP/driver_tmp_1.s
-724A cinit CODE >1562:/tmp/xcgqjGhkP/driver_tmp_1.s
-724A cinit CODE >1565:/tmp/xcgqjGhkP/driver_tmp_1.s
-724C cinit CODE >1566:/tmp/xcgqjGhkP/driver_tmp_1.s
-724E cinit CODE >1567:/tmp/xcgqjGhkP/driver_tmp_1.s
-7250 cinit CODE >1568:/tmp/xcgqjGhkP/driver_tmp_1.s
+8 intcode CODE >10091:/tmp/xcJj03KOt/driver_tmp_1.s
+8 intcode CODE >174:/Users/andresjc/Desktop/Lab4.X/main.c
+1110 text46 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1110 text46 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1118 text46 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+112A text46 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+112E text46 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1132 text46 CODE >17:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1138 text46 CODE >18:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+113A text46 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1148 text46 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+114E text46 CODE >22:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1164 text46 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+116C text46 CODE >24:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+116E text46 CODE >26:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1174 text46 CODE >27:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+117A text46 CODE >28:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+117A text46 CODE >29:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1182 text46 CODE >30:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwdiv.c
+1184 text45 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+1184 text45 CODE >12:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+1196 text45 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+119A text45 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+119E text45 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11A4 text45 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11A6 text45 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11B4 text45 CODE >19:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11CA text45 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11D2 text45 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11D8 text45 CODE >22:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11DE text45 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11DE text45 CODE >24:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+11E6 text45 CODE >25:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/lwmod.c
+1644 text44 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/putch.c
+1644 text44 CODE >9:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/putch.c
+EF0 text43 CODE >8:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+EF0 text43 CODE >12:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+F10 text43 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+F16 text43 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+F1A text43 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+F68 text43 CODE >18:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+F88 text43 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+F98 text43 CODE >24:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_fputc.c
+488 text42 CODE >1177:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+488 text42 CODE >1201:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+4AA text42 CODE >1202:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+4B6 text42 CODE >1204:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+4C2 text42 CODE >1205:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+4C6 text42 CODE >1291:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+4D4 text42 CODE >1439:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+4F0 text42 CODE >1495:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+508 text42 CODE >1497:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+522 text42 CODE >1498:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+526 text42 CODE >1525:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+52A text42 CODE >1527:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+54E text42 CODE >1528:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+56A text42 CODE >1532:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+590 text42 CODE >1534:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+5AC text42 CODE >1533:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+5C2 text42 CODE >1589:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+5D0 text42 CODE >1589:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+5DA text42 CODE >1806:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+5EA text42 CODE >1811:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+60C text42 CODE >1814:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+1324 text41 CODE >1817:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+1324 text41 CODE >1822:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+132C text41 CODE >1826:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+1330 text41 CODE >1830:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+1340 text41 CODE >1826:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+135C text41 CODE >1835:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+1364 text41 CODE >1840:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/doprnt.c
+141A text40 CODE >9:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+141A text40 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+141E text40 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+1422 text40 CODE >17:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+142A text40 CODE >18:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+1432 text40 CODE >19:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+1446 text40 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+1450 text40 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/nf_sprintf.c
+1568 text39 CODE >35:/Users/andresjc/Desktop/Lab4.X/main.c
+1568 text39 CODE >36:/Users/andresjc/Desktop/Lab4.X/main.c
+1580 text39 CODE >37:/Users/andresjc/Desktop/Lab4.X/main.c
+159A text38 CODE >16:/Users/andresjc/Desktop/Lab4.X/uart.c
+159C text38 CODE >17:/Users/andresjc/Desktop/Lab4.X/uart.c
+15AA text38 CODE >18:/Users/andresjc/Desktop/Lab4.X/uart.c
+15AE text38 CODE >19:/Users/andresjc/Desktop/Lab4.X/uart.c
+1480 text37 CODE >21:/Users/andresjc/Desktop/Lab4.X/uart.c
+1480 text37 CODE >22:/Users/andresjc/Desktop/Lab4.X/uart.c
+1484 text37 CODE >23:/Users/andresjc/Desktop/Lab4.X/uart.c
+1492 text37 CODE >22:/Users/andresjc/Desktop/Lab4.X/uart.c
+14A8 text37 CODE >25:/Users/andresjc/Desktop/Lab4.X/uart.c
+14CE text36 CODE >10:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+14CE text36 CODE >11:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+14D0 text36 CODE >12:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+14DE text36 CODE >13:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+14F0 text36 CODE >14:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+162A text35 CODE >5:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+162A text35 CODE >6:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+162E text35 CODE >7:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+1638 text35 CODE >8:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+12E2 text34 CODE >10:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+12E2 text34 CODE >11:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+1306 text34 CODE >12:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+1312 text34 CODE >13:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+1316 text34 CODE >14:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+1322 text34 CODE >16:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+D98 intcode_body CODE >174:/Users/andresjc/Desktop/Lab4.X/main.c
+DBA intcode_body CODE >175:/Users/andresjc/Desktop/Lab4.X/main.c
+DC8 intcode_body CODE >176:/Users/andresjc/Desktop/Lab4.X/main.c
+DCA intcode_body CODE >179:/Users/andresjc/Desktop/Lab4.X/main.c
+DCE intcode_body CODE >180:/Users/andresjc/Desktop/Lab4.X/main.c
+DD2 intcode_body CODE >182:/Users/andresjc/Desktop/Lab4.X/main.c
+DD6 intcode_body CODE >183:/Users/andresjc/Desktop/Lab4.X/main.c
+DE0 intcode_body CODE >185:/Users/andresjc/Desktop/Lab4.X/main.c
+DE2 intcode_body CODE >186:/Users/andresjc/Desktop/Lab4.X/main.c
+DF2 intcode_body CODE >188:/Users/andresjc/Desktop/Lab4.X/main.c
+DFE intcode_body CODE >189:/Users/andresjc/Desktop/Lab4.X/main.c
+E0A intcode_body CODE >190:/Users/andresjc/Desktop/Lab4.X/main.c
+E1A intcode_body CODE >191:/Users/andresjc/Desktop/Lab4.X/main.c
+E22 intcode_body CODE >194:/Users/andresjc/Desktop/Lab4.X/main.c
+15F8 text32 CODE >3:/Users/andresjc/Desktop/Lab4.X/uart.c
+15F8 text32 CODE >5:/Users/andresjc/Desktop/Lab4.X/uart.c
+15FC text32 CODE >6:/Users/andresjc/Desktop/Lab4.X/uart.c
+15FE text32 CODE >7:/Users/andresjc/Desktop/Lab4.X/uart.c
+1600 text32 CODE >8:/Users/andresjc/Desktop/Lab4.X/uart.c
+1602 text32 CODE >9:/Users/andresjc/Desktop/Lab4.X/uart.c
+1604 text32 CODE >12:/Users/andresjc/Desktop/Lab4.X/uart.c
+1606 text32 CODE >13:/Users/andresjc/Desktop/Lab4.X/uart.c
+1608 text32 CODE >14:/Users/andresjc/Desktop/Lab4.X/uart.c
+161A text31 CODE >3:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+161A text31 CODE >4:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+161C text31 CODE >5:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+1620 text31 CODE >6:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+1624 text31 CODE >7:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+1628 text31 CODE >8:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/adc.c
+160A text30 CODE >7:/Users/andresjc/Desktop/Lab4.X/lcd.c
+160A text30 CODE >8:/Users/andresjc/Desktop/Lab4.X/lcd.c
+160E text30 CODE >9:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1618 text30 CODE >10:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1020 text29 CODE >12:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1024 text29 CODE >13:/Users/andresjc/Desktop/Lab4.X/lcd.c
+103A text29 CODE >14:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1054 text29 CODE >15:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1074 text29 CODE >16:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1096 text29 CODE >17:/Users/andresjc/Desktop/Lab4.X/lcd.c
+109A text29 CODE >18:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1452 text28 CODE >20:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1456 text28 CODE >21:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1458 text28 CODE >22:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1462 text28 CODE >23:/Users/andresjc/Desktop/Lab4.X/lcd.c
+146C text28 CODE >24:/Users/andresjc/Desktop/Lab4.X/lcd.c
+147E text28 CODE >25:/Users/andresjc/Desktop/Lab4.X/lcd.c
+154E text27 CODE >34:/Users/andresjc/Desktop/Lab4.X/lcd.c
+154E text27 CODE >35:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1554 text27 CODE >36:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1566 text27 CODE >37:/Users/andresjc/Desktop/Lab4.X/lcd.c
+13A4 text26 CODE >39:/Users/andresjc/Desktop/Lab4.X/lcd.c
+13A8 text26 CODE >40:/Users/andresjc/Desktop/Lab4.X/lcd.c
+13DA text26 CODE >41:/Users/andresjc/Desktop/Lab4.X/lcd.c
+13E0 text26 CODE >42:/Users/andresjc/Desktop/Lab4.X/lcd.c
+14AA text25 CODE >27:/Users/andresjc/Desktop/Lab4.X/lcd.c
+14AE text25 CODE >28:/Users/andresjc/Desktop/Lab4.X/lcd.c
+14B0 text25 CODE >29:/Users/andresjc/Desktop/Lab4.X/lcd.c
+14BA text25 CODE >30:/Users/andresjc/Desktop/Lab4.X/lcd.c
+14C4 text25 CODE >31:/Users/andresjc/Desktop/Lab4.X/lcd.c
+14CC text25 CODE >32:/Users/andresjc/Desktop/Lab4.X/lcd.c
+13E2 text24 CODE >44:/Users/andresjc/Desktop/Lab4.X/lcd.c
+13E2 text24 CODE >45:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1418 text24 CODE >46:/Users/andresjc/Desktop/Lab4.X/lcd.c
+11E8 text23 CODE >39:/Users/andresjc/Desktop/Lab4.X/main.c
+11E8 text23 CODE >40:/Users/andresjc/Desktop/Lab4.X/main.c
+11F6 text23 CODE >41:/Users/andresjc/Desktop/Lab4.X/main.c
+11FA text23 CODE >42:/Users/andresjc/Desktop/Lab4.X/main.c
+1206 text23 CODE >43:/Users/andresjc/Desktop/Lab4.X/main.c
+1214 text23 CODE >44:/Users/andresjc/Desktop/Lab4.X/main.c
+1226 text23 CODE >45:/Users/andresjc/Desktop/Lab4.X/main.c
+122A text23 CODE >46:/Users/andresjc/Desktop/Lab4.X/main.c
+1236 text23 CODE >47:/Users/andresjc/Desktop/Lab4.X/main.c
+1244 text23 CODE >51:/Users/andresjc/Desktop/Lab4.X/main.c
+1246 text23 CODE >52:/Users/andresjc/Desktop/Lab4.X/main.c
+1248 text23 CODE >53:/Users/andresjc/Desktop/Lab4.X/main.c
+163A text22 CODE >11:/Users/andresjc/Desktop/Lab4.X/keypad.c
+163A text22 CODE >12:/Users/andresjc/Desktop/Lab4.X/keypad.c
+163E text22 CODE >13:/Users/andresjc/Desktop/Lab4.X/keypad.c
+1642 text22 CODE >14:/Users/andresjc/Desktop/Lab4.X/keypad.c
+109C text21 CODE >13:/Users/andresjc/Desktop/Lab4.X/display.c
+10A0 text21 CODE >14:/Users/andresjc/Desktop/Lab4.X/display.c
+10B8 text21 CODE >15:/Users/andresjc/Desktop/Lab4.X/display.c
+10D4 text21 CODE >16:/Users/andresjc/Desktop/Lab4.X/display.c
+10F6 text21 CODE >17:/Users/andresjc/Desktop/Lab4.X/display.c
+110E text21 CODE >18:/Users/andresjc/Desktop/Lab4.X/display.c
+14F2 text20 CODE >4:/Users/andresjc/Desktop/Lab4.X/display.c
+14F2 text20 CODE >5:/Users/andresjc/Desktop/Lab4.X/display.c
+14F4 text20 CODE >6:/Users/andresjc/Desktop/Lab4.X/display.c
+14F6 text20 CODE >7:/Users/andresjc/Desktop/Lab4.X/display.c
+14F8 text20 CODE >8:/Users/andresjc/Desktop/Lab4.X/display.c
+14FA text20 CODE >9:/Users/andresjc/Desktop/Lab4.X/display.c
+150C text20 CODE >10:/Users/andresjc/Desktop/Lab4.X/display.c
+1512 text20 CODE >11:/Users/andresjc/Desktop/Lab4.X/display.c
+124A text19 CODE >48:/Users/andresjc/Desktop/Lab4.X/lcd.c
+124E text19 CODE >49:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1254 text19 CODE >50:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1260 text19 CODE >52:/Users/andresjc/Desktop/Lab4.X/lcd.c
+126A text19 CODE >53:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1278 text19 CODE >54:/Users/andresjc/Desktop/Lab4.X/lcd.c
+129A text19 CODE >55:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1366 text18 CODE >57:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1366 text18 CODE >58:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1378 text18 CODE >69:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1384 text18 CODE >70:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1396 text18 CODE >80:/Users/andresjc/Desktop/Lab4.X/lcd.c
+13A2 text18 CODE >81:/Users/andresjc/Desktop/Lab4.X/lcd.c
+A72 text17 CODE >11:/Users/andresjc/Desktop/Lab4.X/rgb.c
+A76 text17 CODE >12:/Users/andresjc/Desktop/Lab4.X/rgb.c
+A88 text17 CODE >13:/Users/andresjc/Desktop/Lab4.X/rgb.c
+A8A text17 CODE >14:/Users/andresjc/Desktop/Lab4.X/rgb.c
+A8C text17 CODE >15:/Users/andresjc/Desktop/Lab4.X/rgb.c
+A8E text17 CODE >16:/Users/andresjc/Desktop/Lab4.X/rgb.c
+A92 text17 CODE >17:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AA2 text17 CODE >18:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AA4 text17 CODE >19:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AA6 text17 CODE >20:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AA8 text17 CODE >21:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AAC text17 CODE >22:/Users/andresjc/Desktop/Lab4.X/rgb.c
+ABE text17 CODE >23:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AC0 text17 CODE >24:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AC2 text17 CODE >25:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AC4 text17 CODE >26:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AC8 text17 CODE >27:/Users/andresjc/Desktop/Lab4.X/rgb.c
+ADA text17 CODE >28:/Users/andresjc/Desktop/Lab4.X/rgb.c
+ADC text17 CODE >29:/Users/andresjc/Desktop/Lab4.X/rgb.c
+ADE text17 CODE >30:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AE0 text17 CODE >31:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AE4 text17 CODE >32:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AF6 text17 CODE >33:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AF8 text17 CODE >34:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AFA text17 CODE >35:/Users/andresjc/Desktop/Lab4.X/rgb.c
+AFC text17 CODE >36:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B00 text17 CODE >37:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B12 text17 CODE >38:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B14 text17 CODE >39:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B16 text17 CODE >40:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B18 text17 CODE >41:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B1C text17 CODE >42:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B2E text17 CODE >43:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B30 text17 CODE >44:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B32 text17 CODE >45:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B34 text17 CODE >46:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B38 text17 CODE >47:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B4A text17 CODE >48:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B4C text17 CODE >49:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B4E text17 CODE >50:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B54 text17 CODE >51:/Users/andresjc/Desktop/Lab4.X/rgb.c
+B54 text17 CODE >52:/Users/andresjc/Desktop/Lab4.X/rgb.c
+1514 text16 CODE >3:/Users/andresjc/Desktop/Lab4.X/rgb.c
+1514 text16 CODE >4:/Users/andresjc/Desktop/Lab4.X/rgb.c
+1516 text16 CODE >5:/Users/andresjc/Desktop/Lab4.X/rgb.c
+1518 text16 CODE >6:/Users/andresjc/Desktop/Lab4.X/rgb.c
+151A text16 CODE >7:/Users/andresjc/Desktop/Lab4.X/rgb.c
+1520 text16 CODE >8:/Users/andresjc/Desktop/Lab4.X/rgb.c
+1532 text16 CODE >9:/Users/andresjc/Desktop/Lab4.X/rgb.c
+F9A text15 CODE >83:/Users/andresjc/Desktop/Lab4.X/lcd.c
+F9A text15 CODE >84:/Users/andresjc/Desktop/Lab4.X/lcd.c
+F9C text15 CODE >85:/Users/andresjc/Desktop/Lab4.X/lcd.c
+F9E text15 CODE >87:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FA0 text15 CODE >88:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FA2 text15 CODE >89:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FA4 text15 CODE >90:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FA6 text15 CODE >91:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FB8 text15 CODE >93:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FBA text15 CODE >94:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FD2 text15 CODE >95:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FE0 text15 CODE >96:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FEE text15 CODE >97:/Users/andresjc/Desktop/Lab4.X/lcd.c
+FFC text15 CODE >99:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1002 text15 CODE >100:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1008 text15 CODE >101:/Users/andresjc/Desktop/Lab4.X/lcd.c
+100E text15 CODE >102:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1012 text15 CODE >104:/Users/andresjc/Desktop/Lab4.X/lcd.c
+1016 text15 CODE >106:/Users/andresjc/Desktop/Lab4.X/lcd.c
+101A text15 CODE >107:/Users/andresjc/Desktop/Lab4.X/lcd.c
+101E text15 CODE >108:/Users/andresjc/Desktop/Lab4.X/lcd.c
+15E6 text14 CODE >27:/Users/andresjc/Desktop/Lab4.X/uart.c
+15E6 text14 CODE >28:/Users/andresjc/Desktop/Lab4.X/uart.c
+15F4 text14 CODE >29:/Users/andresjc/Desktop/Lab4.X/uart.c
+15F6 text14 CODE >30:/Users/andresjc/Desktop/Lab4.X/uart.c
+1582 text13 CODE >16:/Users/andresjc/Desktop/Lab4.X/uart.c
+1586 text13 CODE >17:/Users/andresjc/Desktop/Lab4.X/uart.c
+1594 text13 CODE >18:/Users/andresjc/Desktop/Lab4.X/uart.c
+1598 text13 CODE >19:/Users/andresjc/Desktop/Lab4.X/uart.c
+864 text12 CODE >5:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+864 text12 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+86E text12 CODE >8:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+870 text12 CODE >9:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+874 text12 CODE >10:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+876 text12 CODE >9:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+8AC text12 CODE >12:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+8C4 text12 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+8C8 text12 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+8CA text12 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+8CE text12 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+8EA text12 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+91E text12 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+93C text12 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+970 text12 CODE >24:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/atoi.c
+C24 text11 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C24 text11 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C28 text11 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C36 text11 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C3E text11 CODE >16:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C42 text11 CODE >18:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C50 text11 CODE >19:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C58 text11 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C5C text11 CODE >22:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C64 text11 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C76 text11 CODE >24:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C7A text11 CODE >25:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C7E text11 CODE >26:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C84 text11 CODE >27:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C86 text11 CODE >25:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C94 text11 CODE >30:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+C9A text11 CODE >31:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CB0 text11 CODE >32:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CB8 text11 CODE >33:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CBA text11 CODE >35:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CC0 text11 CODE >36:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CC6 text11 CODE >38:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CD6 text11 CODE >39:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CDE text11 CODE >40:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CE6 text11 CODE >41:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awdiv.c
+CE8 text10 CODE >7:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+CE8 text10 CODE >12:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+CEC text10 CODE >13:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+CFA text10 CODE >14:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D02 text10 CODE >15:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D06 text10 CODE >17:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D14 text10 CODE >18:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D1C text10 CODE >19:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D2E text10 CODE >20:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D32 text10 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D36 text10 CODE >22:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D3C text10 CODE >23:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D3E text10 CODE >21:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D4C text10 CODE >26:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D62 text10 CODE >27:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D6A text10 CODE >28:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D70 text10 CODE >29:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D76 text10 CODE >31:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D86 text10 CODE >32:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D8E text10 CODE >33:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+D96 text10 CODE >34:/Applications/microchip/xc8/v3.00/pic/sources/c99/common/awmod.c
+742 text9 CODE >110:/Users/andresjc/Desktop/Lab4.X/lcd.c
+746 text9 CODE >112:/Users/andresjc/Desktop/Lab4.X/lcd.c
+74A text9 CODE >113:/Users/andresjc/Desktop/Lab4.X/lcd.c
+756 text9 CODE >114:/Users/andresjc/Desktop/Lab4.X/lcd.c
+764 text9 CODE >115:/Users/andresjc/Desktop/Lab4.X/lcd.c
+770 text9 CODE >116:/Users/andresjc/Desktop/Lab4.X/lcd.c
+78E text9 CODE >117:/Users/andresjc/Desktop/Lab4.X/lcd.c
+7AC text9 CODE >119:/Users/andresjc/Desktop/Lab4.X/lcd.c
+7CE text9 CODE >120:/Users/andresjc/Desktop/Lab4.X/lcd.c
+7EE text9 CODE >122:/Users/andresjc/Desktop/Lab4.X/lcd.c
+806 text9 CODE >123:/Users/andresjc/Desktop/Lab4.X/lcd.c
+81E text9 CODE >125:/Users/andresjc/Desktop/Lab4.X/lcd.c
+828 text9 CODE >126:/Users/andresjc/Desktop/Lab4.X/lcd.c
+836 text9 CODE >127:/Users/andresjc/Desktop/Lab4.X/lcd.c
+842 text9 CODE >128:/Users/andresjc/Desktop/Lab4.X/lcd.c
+84A text9 CODE >129:/Users/andresjc/Desktop/Lab4.X/lcd.c
+852 text9 CODE >131:/Users/andresjc/Desktop/Lab4.X/lcd.c
+85A text9 CODE >132:/Users/andresjc/Desktop/Lab4.X/lcd.c
+862 text9 CODE >133:/Users/andresjc/Desktop/Lab4.X/lcd.c
+15D4 text8 CODE >5:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+15D4 text8 CODE >6:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+15D8 text8 CODE >7:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+15E4 text8 CODE >8:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+60E text7 CODE >55:/Users/andresjc/Desktop/Lab4.X/main.c
+60E text7 CODE >56:/Users/andresjc/Desktop/Lab4.X/main.c
+616 text7 CODE >57:/Users/andresjc/Desktop/Lab4.X/main.c
+61C text7 CODE >58:/Users/andresjc/Desktop/Lab4.X/main.c
+636 text7 CODE >59:/Users/andresjc/Desktop/Lab4.X/main.c
+63C text7 CODE >60:/Users/andresjc/Desktop/Lab4.X/main.c
+640 text7 CODE >61:/Users/andresjc/Desktop/Lab4.X/main.c
+658 text7 CODE >62:/Users/andresjc/Desktop/Lab4.X/main.c
+65A text7 CODE >63:/Users/andresjc/Desktop/Lab4.X/main.c
+660 text7 CODE >64:/Users/andresjc/Desktop/Lab4.X/main.c
+664 text7 CODE >65:/Users/andresjc/Desktop/Lab4.X/main.c
+67C text7 CODE >66:/Users/andresjc/Desktop/Lab4.X/main.c
+682 text7 CODE >67:/Users/andresjc/Desktop/Lab4.X/main.c
+686 text7 CODE >68:/Users/andresjc/Desktop/Lab4.X/main.c
+69E text7 CODE >69:/Users/andresjc/Desktop/Lab4.X/main.c
+6A0 text7 CODE >70:/Users/andresjc/Desktop/Lab4.X/main.c
+6AA text7 CODE >71:/Users/andresjc/Desktop/Lab4.X/main.c
+6B0 text7 CODE >72:/Users/andresjc/Desktop/Lab4.X/main.c
+6B4 text7 CODE >73:/Users/andresjc/Desktop/Lab4.X/main.c
+6CC text7 CODE >74:/Users/andresjc/Desktop/Lab4.X/main.c
+6D2 text7 CODE >75:/Users/andresjc/Desktop/Lab4.X/main.c
+6D6 text7 CODE >76:/Users/andresjc/Desktop/Lab4.X/main.c
+6EE text7 CODE >77:/Users/andresjc/Desktop/Lab4.X/main.c
+6F4 text7 CODE >78:/Users/andresjc/Desktop/Lab4.X/main.c
+6F8 text7 CODE >79:/Users/andresjc/Desktop/Lab4.X/main.c
+704 text7 CODE >80:/Users/andresjc/Desktop/Lab4.X/main.c
+712 text7 CODE >81:/Users/andresjc/Desktop/Lab4.X/main.c
+71E text7 CODE >82:/Users/andresjc/Desktop/Lab4.X/main.c
+72C text7 CODE >83:/Users/andresjc/Desktop/Lab4.X/main.c
+73A text7 CODE >85:/Users/andresjc/Desktop/Lab4.X/main.c
+740 text7 CODE >86:/Users/andresjc/Desktop/Lab4.X/main.c
+740 text7 CODE >87:/Users/andresjc/Desktop/Lab4.X/main.c
+E46 text6 CODE >145:/Users/andresjc/Desktop/Lab4.X/main.c
+E4A text6 CODE >146:/Users/andresjc/Desktop/Lab4.X/main.c
+E4E text6 CODE >149:/Users/andresjc/Desktop/Lab4.X/main.c
+E5A text6 CODE >150:/Users/andresjc/Desktop/Lab4.X/main.c
+E5E text6 CODE >154:/Users/andresjc/Desktop/Lab4.X/main.c
+E6A text6 CODE >155:/Users/andresjc/Desktop/Lab4.X/main.c
+E6E text6 CODE >158:/Users/andresjc/Desktop/Lab4.X/main.c
+E7A text6 CODE >160:/Users/andresjc/Desktop/Lab4.X/main.c
+E7E text6 CODE >163:/Users/andresjc/Desktop/Lab4.X/main.c
+E96 text6 CODE >164:/Users/andresjc/Desktop/Lab4.X/main.c
+EA6 text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+EAC text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+EB4 text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+EBC text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+EC4 text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+ECC text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+ED4 text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+EDC text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+EE4 text6 CODE >171:/Users/andresjc/Desktop/Lab4.X/main.c
+EEE text6 CODE >172:/Users/andresjc/Desktop/Lab4.X/main.c
+972 text5 CODE >16:/Users/andresjc/Desktop/Lab4.X/keypad.c
+972 text5 CODE >17:/Users/andresjc/Desktop/Lab4.X/keypad.c
+98A text5 CODE >18:/Users/andresjc/Desktop/Lab4.X/keypad.c
+9AA text5 CODE >19:/Users/andresjc/Desktop/Lab4.X/keypad.c
+9B2 text5 CODE >21:/Users/andresjc/Desktop/Lab4.X/keypad.c
+9B6 text5 CODE >22:/Users/andresjc/Desktop/Lab4.X/keypad.c
+9E8 text5 CODE >23:/Users/andresjc/Desktop/Lab4.X/keypad.c
+A1A text5 CODE >24:/Users/andresjc/Desktop/Lab4.X/keypad.c
+A2C text5 CODE >25:/Users/andresjc/Desktop/Lab4.X/keypad.c
+A56 text5 CODE >27:/Users/andresjc/Desktop/Lab4.X/keypad.c
+A68 text5 CODE >28:/Users/andresjc/Desktop/Lab4.X/keypad.c
+A6E text5 CODE >29:/Users/andresjc/Desktop/Lab4.X/keypad.c
+A70 text5 CODE >30:/Users/andresjc/Desktop/Lab4.X/keypad.c
+12 text4 CODE >89:/Users/andresjc/Desktop/Lab4.X/main.c
+12 text4 CODE >90:/Users/andresjc/Desktop/Lab4.X/main.c
+20 text4 CODE >95:/Users/andresjc/Desktop/Lab4.X/main.c
+24 text4 CODE >96:/Users/andresjc/Desktop/Lab4.X/main.c
+2C text4 CODE >97:/Users/andresjc/Desktop/Lab4.X/main.c
+30 text4 CODE >98:/Users/andresjc/Desktop/Lab4.X/main.c
+3E text4 CODE >99:/Users/andresjc/Desktop/Lab4.X/main.c
+4A text4 CODE >100:/Users/andresjc/Desktop/Lab4.X/main.c
+50 text4 CODE >102:/Users/andresjc/Desktop/Lab4.X/main.c
+54 text4 CODE >103:/Users/andresjc/Desktop/Lab4.X/main.c
+5C text4 CODE >104:/Users/andresjc/Desktop/Lab4.X/main.c
+98 text4 CODE >105:/Users/andresjc/Desktop/Lab4.X/main.c
+A8 text4 CODE >106:/Users/andresjc/Desktop/Lab4.X/main.c
+AE text4 CODE >107:/Users/andresjc/Desktop/Lab4.X/main.c
+DE text4 CODE >108:/Users/andresjc/Desktop/Lab4.X/main.c
+E8 text4 CODE >109:/Users/andresjc/Desktop/Lab4.X/main.c
+EE text4 CODE >110:/Users/andresjc/Desktop/Lab4.X/main.c
+F8 text4 CODE >111:/Users/andresjc/Desktop/Lab4.X/main.c
+100 text4 CODE >112:/Users/andresjc/Desktop/Lab4.X/main.c
+116 text4 CODE >113:/Users/andresjc/Desktop/Lab4.X/main.c
+120 text4 CODE >114:/Users/andresjc/Desktop/Lab4.X/main.c
+130 text4 CODE >115:/Users/andresjc/Desktop/Lab4.X/main.c
+168 text4 CODE >116:/Users/andresjc/Desktop/Lab4.X/main.c
+16E text4 CODE >117:/Users/andresjc/Desktop/Lab4.X/main.c
+17C text4 CODE >118:/Users/andresjc/Desktop/Lab4.X/main.c
+180 text4 CODE >119:/Users/andresjc/Desktop/Lab4.X/main.c
+184 text4 CODE >120:/Users/andresjc/Desktop/Lab4.X/main.c
+190 text4 CODE >121:/Users/andresjc/Desktop/Lab4.X/main.c
+194 text4 CODE >122:/Users/andresjc/Desktop/Lab4.X/main.c
+1A2 text4 CODE >123:/Users/andresjc/Desktop/Lab4.X/main.c
+1AE text4 CODE >124:/Users/andresjc/Desktop/Lab4.X/main.c
+1BC text4 CODE >125:/Users/andresjc/Desktop/Lab4.X/main.c
+1D6 text4 CODE >126:/Users/andresjc/Desktop/Lab4.X/main.c
+1E4 text4 CODE >127:/Users/andresjc/Desktop/Lab4.X/main.c
+1E8 text4 CODE >129:/Users/andresjc/Desktop/Lab4.X/main.c
+1FA text4 CODE >130:/Users/andresjc/Desktop/Lab4.X/main.c
+206 text4 CODE >131:/Users/andresjc/Desktop/Lab4.X/main.c
+20A text4 CODE >132:/Users/andresjc/Desktop/Lab4.X/main.c
+21C text4 CODE >133:/Users/andresjc/Desktop/Lab4.X/main.c
+220 text4 CODE >134:/Users/andresjc/Desktop/Lab4.X/main.c
+22E text4 CODE >135:/Users/andresjc/Desktop/Lab4.X/main.c
+22E text4 CODE >136:/Users/andresjc/Desktop/Lab4.X/main.c
+23C text4 CODE >137:/Users/andresjc/Desktop/Lab4.X/main.c
+244 text4 CODE >138:/Users/andresjc/Desktop/Lab4.X/main.c
+24A text4 CODE >139:/Users/andresjc/Desktop/Lab4.X/main.c
+252 text4 CODE >102:/Users/andresjc/Desktop/Lab4.X/main.c
+26C text4 CODE >95:/Users/andresjc/Desktop/Lab4.X/main.c
+286 text4 CODE >143:/Users/andresjc/Desktop/Lab4.X/main.c
+288 text3 CODE >196:/Users/andresjc/Desktop/Lab4.X/main.c
+288 text3 CODE >197:/Users/andresjc/Desktop/Lab4.X/main.c
+28C text3 CODE >198:/Users/andresjc/Desktop/Lab4.X/main.c
+290 text3 CODE >199:/Users/andresjc/Desktop/Lab4.X/main.c
+29C text3 CODE >202:/Users/andresjc/Desktop/Lab4.X/main.c
+2AA text3 CODE >203:/Users/andresjc/Desktop/Lab4.X/main.c
+2B2 text3 CODE >204:/Users/andresjc/Desktop/Lab4.X/main.c
+2B8 text3 CODE >205:/Users/andresjc/Desktop/Lab4.X/main.c
+2C0 text3 CODE >207:/Users/andresjc/Desktop/Lab4.X/main.c
+2C8 text3 CODE >208:/Users/andresjc/Desktop/Lab4.X/main.c
+2DA text3 CODE >209:/Users/andresjc/Desktop/Lab4.X/main.c
+2E6 text3 CODE >211:/Users/andresjc/Desktop/Lab4.X/main.c
+2FA text3 CODE >212:/Users/andresjc/Desktop/Lab4.X/main.c
+306 text3 CODE >213:/Users/andresjc/Desktop/Lab4.X/main.c
+30A text3 CODE >215:/Users/andresjc/Desktop/Lab4.X/main.c
+31C text3 CODE >216:/Users/andresjc/Desktop/Lab4.X/main.c
+320 text3 CODE >217:/Users/andresjc/Desktop/Lab4.X/main.c
+32A text3 CODE >218:/Users/andresjc/Desktop/Lab4.X/main.c
+32E text3 CODE >219:/Users/andresjc/Desktop/Lab4.X/main.c
+358 text3 CODE >220:/Users/andresjc/Desktop/Lab4.X/main.c
+364 text3 CODE >221:/Users/andresjc/Desktop/Lab4.X/main.c
+368 text3 CODE >223:/Users/andresjc/Desktop/Lab4.X/main.c
+37A text3 CODE >224:/Users/andresjc/Desktop/Lab4.X/main.c
+38A text3 CODE >225:/Users/andresjc/Desktop/Lab4.X/main.c
+38A text3 CODE >227:/Users/andresjc/Desktop/Lab4.X/main.c
+3B6 text3 CODE >228:/Users/andresjc/Desktop/Lab4.X/main.c
+3C2 text3 CODE >229:/Users/andresjc/Desktop/Lab4.X/main.c
+3C6 text3 CODE >230:/Users/andresjc/Desktop/Lab4.X/main.c
+3D2 text3 CODE >231:/Users/andresjc/Desktop/Lab4.X/main.c
+3E0 text3 CODE >232:/Users/andresjc/Desktop/Lab4.X/main.c
+3EC text3 CODE >233:/Users/andresjc/Desktop/Lab4.X/main.c
+3FA text3 CODE >234:/Users/andresjc/Desktop/Lab4.X/main.c
+400 text3 CODE >237:/Users/andresjc/Desktop/Lab4.X/main.c
+420 text3 CODE >238:/Users/andresjc/Desktop/Lab4.X/main.c
+424 text3 CODE >239:/Users/andresjc/Desktop/Lab4.X/main.c
+436 text3 CODE >240:/Users/andresjc/Desktop/Lab4.X/main.c
+438 text3 CODE >241:/Users/andresjc/Desktop/Lab4.X/main.c
+446 text3 CODE >244:/Users/andresjc/Desktop/Lab4.X/main.c
+466 text3 CODE >245:/Users/andresjc/Desktop/Lab4.X/main.c
+46C text3 CODE >197:/Users/andresjc/Desktop/Lab4.X/main.c
+486 text3 CODE >249:/Users/andresjc/Desktop/Lab4.X/main.c
+15C2 text2 CODE >18:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+15C2 text2 CODE >19:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+15C4 text2 CODE >20:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+15D2 text2 CODE >21:/Users/andresjc/MPLABXProjects/PIC_LEARN.X/motor.c
+1534 text1 CODE >3:/Users/andresjc/Desktop/Lab4.X/timer.c
+1534 text1 CODE >4:/Users/andresjc/Desktop/Lab4.X/timer.c
+1536 text1 CODE >5:/Users/andresjc/Desktop/Lab4.X/timer.c
+1538 text1 CODE >8:/Users/andresjc/Desktop/Lab4.X/timer.c
+153C text1 CODE >10:/Users/andresjc/Desktop/Lab4.X/timer.c
+1540 text1 CODE >11:/Users/andresjc/Desktop/Lab4.X/timer.c
+1544 text1 CODE >13:/Users/andresjc/Desktop/Lab4.X/timer.c
+1546 text1 CODE >14:/Users/andresjc/Desktop/Lab4.X/timer.c
+1548 text1 CODE >15:/Users/andresjc/Desktop/Lab4.X/timer.c
+154A text1 CODE >16:/Users/andresjc/Desktop/Lab4.X/timer.c
+154C text1 CODE >17:/Users/andresjc/Desktop/Lab4.X/timer.c
+B56 text0 CODE >251:/Users/andresjc/Desktop/Lab4.X/main.c
+B56 text0 CODE >253:/Users/andresjc/Desktop/Lab4.X/main.c
+B5A text0 CODE >254:/Users/andresjc/Desktop/Lab4.X/main.c
+B68 text0 CODE >255:/Users/andresjc/Desktop/Lab4.X/main.c
+B7A text0 CODE >257:/Users/andresjc/Desktop/Lab4.X/main.c
+B7C text0 CODE >258:/Users/andresjc/Desktop/Lab4.X/main.c
+B7E text0 CODE >259:/Users/andresjc/Desktop/Lab4.X/main.c
+B80 text0 CODE >260:/Users/andresjc/Desktop/Lab4.X/main.c
+B84 text0 CODE >261:/Users/andresjc/Desktop/Lab4.X/main.c
+B88 text0 CODE >262:/Users/andresjc/Desktop/Lab4.X/main.c
+B8C text0 CODE >263:/Users/andresjc/Desktop/Lab4.X/main.c
+B90 text0 CODE >264:/Users/andresjc/Desktop/Lab4.X/main.c
+B94 text0 CODE >265:/Users/andresjc/Desktop/Lab4.X/main.c
+B98 text0 CODE >267:/Users/andresjc/Desktop/Lab4.X/main.c
+B9C text0 CODE >268:/Users/andresjc/Desktop/Lab4.X/main.c
+BB6 text0 CODE >269:/Users/andresjc/Desktop/Lab4.X/main.c
+BBA text0 CODE >270:/Users/andresjc/Desktop/Lab4.X/main.c
+BC6 text0 CODE >271:/Users/andresjc/Desktop/Lab4.X/main.c
+BD4 text0 CODE >272:/Users/andresjc/Desktop/Lab4.X/main.c
+BDA text0 CODE >274:/Users/andresjc/Desktop/Lab4.X/main.c
+BE6 text0 CODE >275:/Users/andresjc/Desktop/Lab4.X/main.c
+BF4 text0 CODE >276:/Users/andresjc/Desktop/Lab4.X/main.c
+C0E text0 CODE >277:/Users/andresjc/Desktop/Lab4.X/main.c
+C1C text0 CODE >278:/Users/andresjc/Desktop/Lab4.X/main.c
+C20 text0 CODE >280:/Users/andresjc/Desktop/Lab4.X/main.c
+129C cinit CODE >3717:/tmp/xcJj03KOt/driver_tmp_1.s
+129C cinit CODE >3719:/tmp/xcJj03KOt/driver_tmp_1.s
+129C cinit CODE >3722:/tmp/xcJj03KOt/driver_tmp_1.s
+129C cinit CODE >3784:/tmp/xcJj03KOt/driver_tmp_1.s
+129E cinit CODE >3785:/tmp/xcJj03KOt/driver_tmp_1.s
+12A0 cinit CODE >3786:/tmp/xcJj03KOt/driver_tmp_1.s
+12A2 cinit CODE >3787:/tmp/xcJj03KOt/driver_tmp_1.s
+12A4 cinit CODE >3788:/tmp/xcJj03KOt/driver_tmp_1.s
+12A6 cinit CODE >3789:/tmp/xcJj03KOt/driver_tmp_1.s
+12A8 cinit CODE >3790:/tmp/xcJj03KOt/driver_tmp_1.s
+12AC cinit CODE >3791:/tmp/xcJj03KOt/driver_tmp_1.s
+12B0 cinit CODE >3792:/tmp/xcJj03KOt/driver_tmp_1.s
+12B0 cinit CODE >3793:/tmp/xcJj03KOt/driver_tmp_1.s
+12B2 cinit CODE >3794:/tmp/xcJj03KOt/driver_tmp_1.s
+12B6 cinit CODE >3795:/tmp/xcJj03KOt/driver_tmp_1.s
+12B8 cinit CODE >3796:/tmp/xcJj03KOt/driver_tmp_1.s
+12BA cinit CODE >3797:/tmp/xcJj03KOt/driver_tmp_1.s
+12BC cinit CODE >3801:/tmp/xcJj03KOt/driver_tmp_1.s
+12C0 cinit CODE >3802:/tmp/xcJj03KOt/driver_tmp_1.s
+12C2 cinit CODE >3803:/tmp/xcJj03KOt/driver_tmp_1.s
+12C2 cinit CODE >3804:/tmp/xcJj03KOt/driver_tmp_1.s
+12C4 cinit CODE >3805:/tmp/xcJj03KOt/driver_tmp_1.s
+12C6 cinit CODE >3806:/tmp/xcJj03KOt/driver_tmp_1.s
+12C8 cinit CODE >3809:/tmp/xcJj03KOt/driver_tmp_1.s
+12CC cinit CODE >3810:/tmp/xcJj03KOt/driver_tmp_1.s
+12CE cinit CODE >3811:/tmp/xcJj03KOt/driver_tmp_1.s
+12CE cinit CODE >3812:/tmp/xcJj03KOt/driver_tmp_1.s
+12D0 cinit CODE >3813:/tmp/xcJj03KOt/driver_tmp_1.s
+12D2 cinit CODE >3814:/tmp/xcJj03KOt/driver_tmp_1.s
+12D4 cinit CODE >3820:/tmp/xcJj03KOt/driver_tmp_1.s
+12D4 cinit CODE >3822:/tmp/xcJj03KOt/driver_tmp_1.s
+12D6 cinit CODE >3823:/tmp/xcJj03KOt/driver_tmp_1.s
+12D8 cinit CODE >3825:/tmp/xcJj03KOt/driver_tmp_1.s
+12DA cinit CODE >3826:/tmp/xcJj03KOt/driver_tmp_1.s
+12DC cinit CODE >3827:/tmp/xcJj03KOt/driver_tmp_1.s
+12DE cinit CODE >3828:/tmp/xcJj03KOt/driver_tmp_1.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -369,81 +745,134 @@ $dist/default/debug/Lab4.X.debug.o
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-___awdiv@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-_piezas_contadas 20 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
-__Lmediumconst 7C5A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+___awdiv@counter 8C 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+_piezas_contadas 87 0 BANK0 1 bssBANK0 dist/default/debug/Lab4.X.debug.o
+___lwmod@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug/Lab4.X.debug.o
+__Lmediumconst 7C3A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
 __Hspace_0 7D40 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-__Hspace_1 23 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+__Hspace_1 BB 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Hspace_2 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-__end_of_set_status 772A 0 CODE 0 text3 dist/default/debug/Lab4.X.debug.o
+__end_of_load_custom_characters 13A4 0 CODE 0 text18 dist/default/debug/Lab4.X.debug.o
+i2motor_control@value 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_set_status 742 0 CODE 0 text7 dist/default/debug/Lab4.X.debug.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/debug/Lab4.X.debug.o
-__mediumconst 7C5A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+__mediumconst 7C3A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug/Lab4.X.debug.o
+__end_of_handle_serial_command EF0 0 CODE 0 text6 dist/default/debug/Lab4.X.debug.o
+lcd_create_char@i 8E 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __L__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug/Lab4.X.debug.o
+loop@c A5 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+?_vfprintf 15 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug/Lab4.X.debug.o
+get_valid_input_count@buffer 9C 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 _LATB F8A 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-___sp 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-_atoi 781C 0 CODE 0 text5 dist/default/debug/Lab4.X.debug.o
-_loop 7928 0 CODE 0 text1 dist/default/debug/Lab4.X.debug.o
-_main 7336 0 CODE 0 text0 dist/default/debug/Lab4.X.debug.o
-___stack_hi 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-___stack_lo 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-start 7D3C 0 CODE 0 init /tmp/xcgqjGhkP/driver_tmp_9.o
+___sp 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
+_atoi 864 0 CODE 0 text12 dist/default/debug/Lab4.X.debug.o
+_dbuf 60 0 BANK0 1 bssBANK0 dist/default/debug/Lab4.X.debug.o
+_loop 288 0 CODE 0 text3 dist/default/debug/Lab4.X.debug.o
+_main B56 0 CODE 0 text0 dist/default/debug/Lab4.X.debug.o
+_prec 4F 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+btemp 56 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
+___stack_hi 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
+___stack_lo 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
+start E 0 CODE 0 init /tmp/xcJj03KOt/driver_tmp_14.o
+__end_ofi2_motor_control 163A 0 CODE 0 text35 dist/default/debug/Lab4.X.debug.o
 __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+_handle_serial_command E46 0 CODE 0 text6 dist/default/debug/Lab4.X.debug.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/debug/Lab4.X.debug.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/debug/Lab4.X.debug.o
-___awmod@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_clear 71E2 0 CODE 0 text13 dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_pulse 71CA 0 CODE 0 text16 dist/default/debug/Lab4.X.debug.o
-_piezas_objetivo 1F 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_write 728A 0 CODE 0 text7 dist/default/debug/Lab4.X.debug.o
-__accesstop 60 0 ABS 0 - /tmp/xcgqjGhkP/driver_tmp_9.o
-intlevel0 0 0 CODE 0 text /tmp/xcgqjGhkP/driver_tmp_9.o
-intlevel1 0 0 CODE 0 text /tmp/xcgqjGhkP/driver_tmp_9.o
-intlevel2 0 0 CODE 0 text /tmp/xcgqjGhkP/driver_tmp_9.o
-intlevel3 0 0 CODE 0 text /tmp/xcgqjGhkP/driver_tmp_9.o
+count_update_screen@dec_counted 95 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_vfpfcnvrt 60E 0 CODE 0 text42 dist/default/debug/Lab4.X.debug.o
+___awmod@sign 8D 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+ttemp5 57 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
+ttemp6 5A 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
+ttemp7 5E 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_clear 1568 0 CODE 0 text27 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_pulse 161A 0 CODE 0 text30 dist/default/debug/Lab4.X.debug.o
+_piezas_objetivo 86 0 BANK0 1 bssBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_write 141A 0 CODE 0 text24 dist/default/debug/Lab4.X.debug.o
+__accesstop 60 0 ABS 0 - /tmp/xcJj03KOt/driver_tmp_14.o
+intlevel0 0 0 CODE 0 text /tmp/xcJj03KOt/driver_tmp_14.o
+intlevel1 0 0 CODE 0 text /tmp/xcJj03KOt/driver_tmp_14.o
+intlevel2 0 0 CODE 0 text /tmp/xcJj03KOt/driver_tmp_14.o
+intlevel3 0 0 CODE 0 text /tmp/xcJj03KOt/driver_tmp_14.o
+_motor_init 15C2 0 CODE 0 text2 dist/default/debug/Lab4.X.debug.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug/Lab4.X.debug.o
 _OSCCONbits FD3 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug/Lab4.X.debug.o
+__end_of_IntToString 1582 0 CODE 0 text39 dist/default/debug/Lab4.X.debug.o
+wtemp8 57 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
+_UART_Write 1582 0 CODE 0 text13 dist/default/debug/Lab4.X.debug.o
+_timer1_init 1534 0 CODE 0 text1 dist/default/debug/Lab4.X.debug.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/debug/Lab4.X.debug.o
-___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+___awdiv@sign 8D 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/debug/Lab4.X.debug.o
-__pidataCOMRAM 71AE 0 CODE 0 idataCOMRAM dist/default/debug/Lab4.X.debug.o
-_lcd_clear 71CA 0 CODE 0 text13 dist/default/debug/Lab4.X.debug.o
-_lcd_pulse 71BA 0 CODE 0 text16 dist/default/debug/Lab4.X.debug.o
-_lcd_write 7254 0 CODE 0 text7 dist/default/debug/Lab4.X.debug.o
-lcd_set_cursor@col 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-lcd_set_cursor@row 6 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_cmd 7226 0 CODE 0 text14 dist/default/debug/Lab4.X.debug.o
-___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-___inthi_sp 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-___intlo_sp 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/debug/Lab4.X.debug.o
+_vfpfcnvrt 488 0 CODE 0 text42 dist/default/debug/Lab4.X.debug.o
+lcd_create_char@location 8D 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+_lcd_clear 154E 0 CODE 0 text27 dist/default/debug/Lab4.X.debug.o
+_lcd_pulse 160A 0 CODE 0 text30 dist/default/debug/Lab4.X.debug.o
+i2_motor_control 162A 0 CODE 0 text35 dist/default/debug/Lab4.X.debug.o
+_lcd_write 13E2 0 CODE 0 text24 dist/default/debug/Lab4.X.debug.o
+_ADCON0 FC2 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_ADCON1 FC1 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_ADCON2 FC0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_ADRESH FC4 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_ADRESL FC3 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+lcd_set_cursor@col 8C 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+lcd_set_cursor@row 8D 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_cmd 1480 0 CODE 0 text28 dist/default/debug/Lab4.X.debug.o
+___awdiv@dividend 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+___inthi_sp 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
+___intlo_sp 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug/Lab4.X.debug.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug/Lab4.X.debug.o
-lcd_data@data 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__Hmediumconst 7D3C 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+lcd_data@data 8A 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__Hmediumconst 7D40 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+count_update_screen@units_pending 92 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Hintcodelo 18 0 CODE 0 intcodelo dist/default/debug/Lab4.X.debug.o
-___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__end_of___awdiv 764A 0 CODE 0 text11 dist/default/debug/Lab4.X.debug.o
-__end_of___awmod 74CE 0 CODE 0 text10 dist/default/debug/Lab4.X.debug.o
-get_valid_input@buffer E 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug/Lab4.X.debug.o
-get_valid_input@key 15 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+___awdiv@divisor 8A 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+___lwmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of___awdiv CE8 0 CODE 0 text11 dist/default/debug/Lab4.X.debug.o
+__end_of___awmod D98 0 CODE 0 text10 dist/default/debug/Lab4.X.debug.o
+__end_of_check_reset_cause 124A 0 CODE 0 text23 dist/default/debug/Lab4.X.debug.o
+__end_of___lwdiv 1184 0 CODE 0 text46 dist/default/debug/Lab4.X.debug.o
+__end_of___lwmod 11E8 0 CODE 0 text45 dist/default/debug/Lab4.X.debug.o
+__end_of_motor_init 15D4 0 CODE 0 text2 dist/default/debug/Lab4.X.debug.o
+_rgb_init 1514 0 CODE 0 text16 dist/default/debug/Lab4.X.debug.o
+__end_of_get_valid_input_count 288 0 CODE 0 text4 dist/default/debug/Lab4.X.debug.o
+i2UART_Write@data 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of_UART_Write 159A 0 CODE 0 text13 dist/default/debug/Lab4.X.debug.o
+___lwdiv@quotient 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of_rgb_init 1534 0 CODE 0 text16 dist/default/debug/Lab4.X.debug.o
+___lwmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Lintcodelo 18 0 CODE 0 intcodelo dist/default/debug/Lab4.X.debug.o
-start_initialization 7226 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
-_count_update_screen 74CE 0 CODE 0 text6 dist/default/debug/Lab4.X.debug.o
+start_initialization 129C 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
+_count_update_screen 742 0 CODE 0 text9 dist/default/debug/Lab4.X.debug.o
 _OSCCON FD3 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug/Lab4.X.debug.o
-__end_of_keymap 7C6B 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+_get_valid_input_count 12 0 CODE 0 text4 dist/default/debug/Lab4.X.debug.o
+__end_of_keymap 7C4B 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
 _TRISAbits F92 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_TRISCbits F94 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 _TRISDbits F95 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_TRISEbits F96 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+load_custom_characters@F3257 B1 0 BANK0 1 dataBANK0 dist/default/debug/Lab4.X.debug.o
+load_custom_characters@F3259 A9 0 BANK0 1 dataBANK0 dist/default/debug/Lab4.X.debug.o
+get_valid_input_count@index A2 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+get_valid_input_count@value A0 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 ___rparam_used 1 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-__end_of_get_valid_input 7C5A 0 CODE 0 text2 dist/default/debug/Lab4.X.debug.o
-_keypad_init 71B0 0 CODE 0 text17 dist/default/debug/Lab4.X.debug.o
-isa$xinst 0 0 ABS 0 - /tmp/xcgqjGhkP/driver_tmp_9.o
-_keypad_get_key 772A 0 CODE 0 text4 dist/default/debug/Lab4.X.debug.o
+__pcstackBANK0 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_UART_Write_Text 14AA 0 CODE 0 text37 dist/default/debug/Lab4.X.debug.o
+_keypad_init 163A 0 CODE 0 text22 dist/default/debug/Lab4.X.debug.o
+handle_serial_command@cmd 99 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+isa$xinst 0 0 ABS 0 - /tmp/xcJj03KOt/driver_tmp_14.o
+_keypad_get_key 972 0 CODE 0 text5 dist/default/debug/Lab4.X.debug.o
+fputc@fp 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of_motor_control_with_level 1324 0 CODE 0 text34 dist/default/debug/Lab4.X.debug.o
+IntToString@buffer 2E 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/debug/Lab4.X.debug.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/debug/Lab4.X.debug.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/debug/Lab4.X.debug.o
@@ -459,6 +888,7 @@ __Hidloc 200008 0 IDLOC 5 idloc dist/default/debug/Lab4.X.debug.o
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug/Lab4.X.debug.o
 __Hparam 0 0 COMRAM 1 rparam dist/default/debug/Lab4.X.debug.o
 __Hrdata 0 0 COMRAM 1 rdata dist/default/debug/Lab4.X.debug.o
+IntToString@value 2C 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Hstack 0 0 STACK 2 stack dist/default/debug/Lab4.X.debug.o
 __Htext0 0 0 ABS 0 text0 dist/default/debug/Lab4.X.debug.o
 __Htext1 0 0 ABS 0 text1 dist/default/debug/Lab4.X.debug.o
@@ -470,12 +900,16 @@ __Htext6 0 0 ABS 0 text6 dist/default/debug/Lab4.X.debug.o
 __Htext7 0 0 ABS 0 text7 dist/default/debug/Lab4.X.debug.o
 __Htext8 0 0 ABS 0 text8 dist/default/debug/Lab4.X.debug.o
 __Htext9 0 0 ABS 0 text9 dist/default/debug/Lab4.X.debug.o
+___lwdiv@counter 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug/Lab4.X.debug.o
 __Hbigram 0 0 ABS 0 bigram dist/default/debug/Lab4.X.debug.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/debug/Lab4.X.debug.o
-__smallconst 7C5A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+__smallconst 7C3A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+__end_of_sprintf 1452 0 CODE 0 text40 dist/default/debug/Lab4.X.debug.o
+count_update_screen@units_counted 94 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Hcomram 0 0 ABS 0 comram dist/default/debug/Lab4.X.debug.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/debug/Lab4.X.debug.o
+_check_reset_cause 11E8 0 CODE 0 text23 dist/default/debug/Lab4.X.debug.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/debug/Lab4.X.debug.o
 __Lbank1 0 0 ABS 0 bank1 dist/default/debug/Lab4.X.debug.o
 __Lbank2 0 0 ABS 0 bank2 dist/default/debug/Lab4.X.debug.o
@@ -489,6 +923,7 @@ __Lconst 0 0 CONST 0 const dist/default/debug/Lab4.X.debug.o
 __Lidata 0 0 CODE 0 idata dist/default/debug/Lab4.X.debug.o
 __Lidloc 0 0 IDLOC 5 idloc dist/default/debug/Lab4.X.debug.o
 __Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug/Lab4.X.debug.o
+_display_init 14F2 0 CODE 0 text20 dist/default/debug/Lab4.X.debug.o
 __Lparam 0 0 COMRAM 1 rparam dist/default/debug/Lab4.X.debug.o
 __Lrdata 0 0 COMRAM 1 rdata dist/default/debug/Lab4.X.debug.o
 __Lstack 0 0 STACK 2 stack dist/default/debug/Lab4.X.debug.o
@@ -502,55 +937,69 @@ __Ltext6 0 0 ABS 0 text6 dist/default/debug/Lab4.X.debug.o
 __Ltext7 0 0 ABS 0 text7 dist/default/debug/Lab4.X.debug.o
 __Ltext8 0 0 ABS 0 text8 dist/default/debug/Lab4.X.debug.o
 __Ltext9 0 0 ABS 0 text9 dist/default/debug/Lab4.X.debug.o
-lcd_write@str 4 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+_t3_interrupts 55 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+lcd_write@str 8B 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/debug/Lab4.X.debug.o
+_send_display 109C 0 CODE 0 text21 dist/default/debug/Lab4.X.debug.o
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug/Lab4.X.debug.o
+_PORTCbits F82 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_INTCONbits FF2 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Habs1 0 0 ABS 0 abs1 dist/default/debug/Lab4.X.debug.o
 __Hdata 0 0 ABS 0 data dist/default/debug/Lab4.X.debug.o
 __Hheap 0 0 HEAP 7 heap dist/default/debug/Lab4.X.debug.o
-__Hinit 7D40 0 CODE 0 init dist/default/debug/Lab4.X.debug.o
+__Hinit 12 0 CODE 0 init dist/default/debug/Lab4.X.debug.o
 __Hrbit 0 0 COMRAM 1 rbit dist/default/debug/Lab4.X.debug.o
 __Hrbss 0 0 COMRAM 1 rbss dist/default/debug/Lab4.X.debug.o
-__Htemp 0 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
+__Htemp 57 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
 __Htext 0 0 ABS 0 text dist/default/debug/Lab4.X.debug.o
 __Labs1 0 0 ABS 0 abs1 dist/default/debug/Lab4.X.debug.o
 __Ldata 0 0 ABS 0 data dist/default/debug/Lab4.X.debug.o
 __Lheap 0 0 HEAP 7 heap dist/default/debug/Lab4.X.debug.o
-__Linit 7D3C 0 CODE 0 init dist/default/debug/Lab4.X.debug.o
+__Linit E 0 CODE 0 init dist/default/debug/Lab4.X.debug.o
 __Lrbit 0 0 COMRAM 1 rbit dist/default/debug/Lab4.X.debug.o
 __Lrbss 0 0 COMRAM 1 rbss dist/default/debug/Lab4.X.debug.o
-__Ltemp 0 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
+__Ltemp 56 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
 __Ltext 0 0 ABS 0 text dist/default/debug/Lab4.X.debug.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+int$flags 56 0 COMRAM 1 temp dist/default/debug/Lab4.X.debug.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-keypad_get_key@col 4 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-keypad_get_key@row 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+_UART_Write_Text 1480 0 CODE 0 text37 dist/default/debug/Lab4.X.debug.o
+keypad_get_key@col 8B 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+keypad_get_key@row 8A 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+load_custom_characters@smiley 90 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Hintret 0 0 ABS 0 intret dist/default/debug/Lab4.X.debug.o
-_get_valid_input 7A80 0 CODE 0 text2 dist/default/debug/Lab4.X.debug.o
 __Hirdata 0 0 CODE 0 irdata dist/default/debug/Lab4.X.debug.o
 __S0 7D40 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-__S1 23 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+__S1 BB 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __S4 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __S5 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-lcd_set_cursor@addr 9 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__end_of_keypad_get_key 781C 0 CODE 0 text4 dist/default/debug/Lab4.X.debug.o
-__end_of_count_update_screen 7588 0 CODE 0 text6 dist/default/debug/Lab4.X.debug.o
-__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/debug/Lab4.X.debug.o
+_isr 8 0 CODE 0 intcode dist/default/debug/Lab4.X.debug.o
+lcd_set_cursor@addr 90 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_keypad_get_key A72 0 CODE 0 text5 dist/default/debug/Lab4.X.debug.o
+__end_of_count_update_screen 864 0 CODE 0 text9 dist/default/debug/Lab4.X.debug.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug/Lab4.X.debug.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug/Lab4.X.debug.o
-_lcd_data 71E2 0 CODE 0 text8 dist/default/debug/Lab4.X.debug.o
-_lcd_init 72C4 0 CODE 0 text12 dist/default/debug/Lab4.X.debug.o
+sprintf@fmt 1C 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+lcd_create_char@charmap 8C 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_isr E46 0 CODE 0 intcode_body dist/default/debug/Lab4.X.debug.o
+load_custom_characters@cool_dude 98 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+int_func D98 0 CODE 0 intcode_body dist/default/debug/Lab4.X.debug.o
+_lcd_data 14AA 0 CODE 0 text25 dist/default/debug/Lab4.X.debug.o
+_lcd_init F9A 0 CODE 0 text15 dist/default/debug/Lab4.X.debug.o
 __Lintentry 0 0 ABS 0 intentry dist/default/debug/Lab4.X.debug.o
-get_valid_input@index 13 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-get_valid_input@value 11 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-_lcd_cmd 7200 0 CODE 0 text14 dist/default/debug/Lab4.X.debug.o
+__end_of_timer1_init 154E 0 CODE 0 text1 dist/default/debug/Lab4.X.debug.o
+_lcd_cmd 1452 0 CODE 0 text28 dist/default/debug/Lab4.X.debug.o
 __Hramtop 800 0 RAM 0 ramtop dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_send_nibble 7420 0 CODE 0 text15 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_send_nibble 109C 0 CODE 0 text29 dist/default/debug/Lab4.X.debug.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/debug/Lab4.X.debug.o
-loop@key 16 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+isr@buffer 37 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+loop@key A6 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__pdataBANK0 A9 0 BANK0 1 dataBANK0 dist/default/debug/Lab4.X.debug.o
 __activetblptr 2 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_data 7200 0 CODE 0 text8 dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_init 7336 0 CODE 0 text12 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_data 14CE 0 CODE 0 text25 dist/default/debug/Lab4.X.debug.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_init 1020 0 CODE 0 text15 dist/default/debug/Lab4.X.debug.o
 __Htext10 0 0 ABS 0 text10 dist/default/debug/Lab4.X.debug.o
 __Htext11 0 0 ABS 0 text11 dist/default/debug/Lab4.X.debug.o
 __Htext12 0 0 ABS 0 text12 dist/default/debug/Lab4.X.debug.o
@@ -559,72 +1008,177 @@ __Htext14 0 0 ABS 0 text14 dist/default/debug/Lab4.X.debug.o
 __Htext15 0 0 ABS 0 text15 dist/default/debug/Lab4.X.debug.o
 __Htext16 0 0 ABS 0 text16 dist/default/debug/Lab4.X.debug.o
 __Htext17 0 0 ABS 0 text17 dist/default/debug/Lab4.X.debug.o
-_keymap 7C5B 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
-___awmod@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__ptext10 7420 0 CODE 0 text10 dist/default/debug/Lab4.X.debug.o
-__ptext11 7588 0 CODE 0 text11 dist/default/debug/Lab4.X.debug.o
-__ptext12 72C4 0 CODE 0 text12 dist/default/debug/Lab4.X.debug.o
-__ptext13 71CA 0 CODE 0 text13 dist/default/debug/Lab4.X.debug.o
-__ptext14 7200 0 CODE 0 text14 dist/default/debug/Lab4.X.debug.o
-__ptext15 73A8 0 CODE 0 text15 dist/default/debug/Lab4.X.debug.o
-__ptext16 71BA 0 CODE 0 text16 dist/default/debug/Lab4.X.debug.o
-__ptext17 71B0 0 CODE 0 text17 dist/default/debug/Lab4.X.debug.o
-___awdiv 7588 0 CODE 0 text11 dist/default/debug/Lab4.X.debug.o
-___awmod 7420 0 CODE 0 text10 dist/default/debug/Lab4.X.debug.o
+__Htext18 0 0 ABS 0 text18 dist/default/debug/Lab4.X.debug.o
+__Htext19 0 0 ABS 0 text19 dist/default/debug/Lab4.X.debug.o
+__Htext20 0 0 ABS 0 text20 dist/default/debug/Lab4.X.debug.o
+__Htext21 0 0 ABS 0 text21 dist/default/debug/Lab4.X.debug.o
+__Htext22 0 0 ABS 0 text22 dist/default/debug/Lab4.X.debug.o
+__Htext23 0 0 ABS 0 text23 dist/default/debug/Lab4.X.debug.o
+__Htext24 0 0 ABS 0 text24 dist/default/debug/Lab4.X.debug.o
+__Htext25 0 0 ABS 0 text25 dist/default/debug/Lab4.X.debug.o
+__Htext26 0 0 ABS 0 text26 dist/default/debug/Lab4.X.debug.o
+__Htext27 0 0 ABS 0 text27 dist/default/debug/Lab4.X.debug.o
+__Htext28 0 0 ABS 0 text28 dist/default/debug/Lab4.X.debug.o
+__Htext29 0 0 ABS 0 text29 dist/default/debug/Lab4.X.debug.o
+__Htext30 0 0 ABS 0 text30 dist/default/debug/Lab4.X.debug.o
+__Htext31 0 0 ABS 0 text31 dist/default/debug/Lab4.X.debug.o
+__Htext32 0 0 ABS 0 text32 dist/default/debug/Lab4.X.debug.o
+__Htext34 0 0 ABS 0 text34 dist/default/debug/Lab4.X.debug.o
+__Htext35 0 0 ABS 0 text35 dist/default/debug/Lab4.X.debug.o
+__Htext36 0 0 ABS 0 text36 dist/default/debug/Lab4.X.debug.o
+__Htext37 0 0 ABS 0 text37 dist/default/debug/Lab4.X.debug.o
+__Htext38 0 0 ABS 0 text38 dist/default/debug/Lab4.X.debug.o
+__Htext39 0 0 ABS 0 text39 dist/default/debug/Lab4.X.debug.o
+__Htext40 0 0 ABS 0 text40 dist/default/debug/Lab4.X.debug.o
+__Htext41 0 0 ABS 0 text41 dist/default/debug/Lab4.X.debug.o
+__Htext42 0 0 ABS 0 text42 dist/default/debug/Lab4.X.debug.o
+__Htext43 0 0 ABS 0 text43 dist/default/debug/Lab4.X.debug.o
+__Htext44 0 0 ABS 0 text44 dist/default/debug/Lab4.X.debug.o
+__Htext45 0 0 ABS 0 text45 dist/default/debug/Lab4.X.debug.o
+__Htext46 0 0 ABS 0 text46 dist/default/debug/Lab4.X.debug.o
+_keymap 7C3B 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+vfpfcnvrt@fmt A 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+___awmod@counter 8C 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+_motor_control 15D4 0 CODE 0 text8 dist/default/debug/Lab4.X.debug.o
+_RCSTAbits FAB 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_PIE1bits F9D 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+__end_of_display_init 1514 0 CODE 0 text20 dist/default/debug/Lab4.X.debug.o
+__ptext10 CE8 0 CODE 0 text10 dist/default/debug/Lab4.X.debug.o
+__ptext11 C24 0 CODE 0 text11 dist/default/debug/Lab4.X.debug.o
+__ptext12 864 0 CODE 0 text12 dist/default/debug/Lab4.X.debug.o
+__ptext13 1582 0 CODE 0 text13 dist/default/debug/Lab4.X.debug.o
+__ptext14 15E6 0 CODE 0 text14 dist/default/debug/Lab4.X.debug.o
+__ptext15 F9A 0 CODE 0 text15 dist/default/debug/Lab4.X.debug.o
+__ptext16 1514 0 CODE 0 text16 dist/default/debug/Lab4.X.debug.o
+__ptext17 A72 0 CODE 0 text17 dist/default/debug/Lab4.X.debug.o
+__ptext18 1366 0 CODE 0 text18 dist/default/debug/Lab4.X.debug.o
+__ptext19 124A 0 CODE 0 text19 dist/default/debug/Lab4.X.debug.o
+__ptext20 14F2 0 CODE 0 text20 dist/default/debug/Lab4.X.debug.o
+__ptext21 109C 0 CODE 0 text21 dist/default/debug/Lab4.X.debug.o
+__ptext22 163A 0 CODE 0 text22 dist/default/debug/Lab4.X.debug.o
+__ptext23 11E8 0 CODE 0 text23 dist/default/debug/Lab4.X.debug.o
+__ptext24 13E2 0 CODE 0 text24 dist/default/debug/Lab4.X.debug.o
+__ptext25 14AA 0 CODE 0 text25 dist/default/debug/Lab4.X.debug.o
+__ptext26 13A4 0 CODE 0 text26 dist/default/debug/Lab4.X.debug.o
+__ptext27 154E 0 CODE 0 text27 dist/default/debug/Lab4.X.debug.o
+__ptext28 1452 0 CODE 0 text28 dist/default/debug/Lab4.X.debug.o
+__ptext29 1020 0 CODE 0 text29 dist/default/debug/Lab4.X.debug.o
+__ptext30 160A 0 CODE 0 text30 dist/default/debug/Lab4.X.debug.o
+__ptext31 161A 0 CODE 0 text31 dist/default/debug/Lab4.X.debug.o
+__ptext32 15F8 0 CODE 0 text32 dist/default/debug/Lab4.X.debug.o
+__ptext34 12E2 0 CODE 0 text34 dist/default/debug/Lab4.X.debug.o
+__ptext35 162A 0 CODE 0 text35 dist/default/debug/Lab4.X.debug.o
+__ptext36 14CE 0 CODE 0 text36 dist/default/debug/Lab4.X.debug.o
+__ptext37 1480 0 CODE 0 text37 dist/default/debug/Lab4.X.debug.o
+__ptext38 159A 0 CODE 0 text38 dist/default/debug/Lab4.X.debug.o
+__ptext39 1568 0 CODE 0 text39 dist/default/debug/Lab4.X.debug.o
+__ptext40 141A 0 CODE 0 text40 dist/default/debug/Lab4.X.debug.o
+__ptext41 1324 0 CODE 0 text41 dist/default/debug/Lab4.X.debug.o
+__ptext42 488 0 CODE 0 text42 dist/default/debug/Lab4.X.debug.o
+__ptext43 EF0 0 CODE 0 text43 dist/default/debug/Lab4.X.debug.o
+__ptext44 1644 0 CODE 0 text44 dist/default/debug/Lab4.X.debug.o
+__ptext45 1184 0 CODE 0 text45 dist/default/debug/Lab4.X.debug.o
+__ptext46 1110 0 CODE 0 text46 dist/default/debug/Lab4.X.debug.o
+___awdiv C24 0 CODE 0 text11 dist/default/debug/Lab4.X.debug.o
+___awmod CE8 0 CODE 0 text10 dist/default/debug/Lab4.X.debug.o
+__end_of_send_display 1110 0 CODE 0 text21 dist/default/debug/Lab4.X.debug.o
+__pintcode_body D98 0 CODE 0 intcode_body dist/default/debug/Lab4.X.debug.o
+___lwdiv 1110 0 CODE 0 text46 dist/default/debug/Lab4.X.debug.o
+___lwmod 1184 0 CODE 0 text45 dist/default/debug/Lab4.X.debug.o
+send_rgb@units 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug/Lab4.X.debug.o
 __Lbigram 0 0 ABS 0 bigram dist/default/debug/Lab4.X.debug.o
 __Lbigsfr 0 0 ABS 0 bigsfr dist/default/debug/Lab4.X.debug.o
-?_atoi 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+UART_Write_Text@text 2 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+?_atoi 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Lcomram 0 0 ABS 0 comram dist/default/debug/Lab4.X.debug.o
 __Lconfig 0 0 CONFIG 4 config dist/default/debug/Lab4.X.debug.o
 _LATAbits F89 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_LATCbits F8B 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 _LATDbits F8C 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_LATEbits F8D 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Lsivt_hi 0 0 CODE 0 sivt_hi dist/default/debug/Lab4.X.debug.o
 __Lsivt_lo 18 0 CODE 0 sivt_lo dist/default/debug/Lab4.X.debug.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/debug/Lab4.X.debug.o
-_lcd_set_cursor$348 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-___inthi_stack_hi 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-___inthi_stack_lo 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-_status 21 0 COMRAM 1 dataCOMRAM dist/default/debug/Lab4.X.debug.o
+_lcd_set_cursor$296 8E 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+___inthi_stack_hi 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
+___inthi_stack_lo 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
+___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+_status B9 0 BANK0 1 dataBANK0 dist/default/debug/Lab4.X.debug.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/debug/Lab4.X.debug.o
-isa$std 1 0 ABS 0 - /tmp/xcgqjGhkP/driver_tmp_9.o
-stackhi 0 0 ABS 0 - /tmp/xcgqjGhkP/driver_tmp_9.o
-stacklo 0 0 ABS 0 - /tmp/xcgqjGhkP/driver_tmp_9.o
-_lcd_send_nibble 73A8 0 CODE 0 text15 dist/default/debug/Lab4.X.debug.o
+isa$std 1 0 ABS 0 - /tmp/xcJj03KOt/driver_tmp_14.o
+_led_lbk_estado 83 0 BANK0 1 bssBANK0 dist/default/debug/Lab4.X.debug.o
+count_update_screen@piezas_cont 91 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+stackhi 0 0 ABS 0 - /tmp/xcJj03KOt/driver_tmp_14.o
+stacklo 0 0 ABS 0 - /tmp/xcJj03KOt/driver_tmp_14.o
+_lcd_send_nibble 1020 0 CODE 0 text29 dist/default/debug/Lab4.X.debug.o
 __Lintcode 8 0 CODE 0 intcode dist/default/debug/Lab4.X.debug.o
 __Lintret 0 0 ABS 0 intret dist/default/debug/Lab4.X.debug.o
 __Lirdata 0 0 CODE 0 irdata dist/default/debug/Lab4.X.debug.o
+_ADCON0bits FC2 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_adc_init 161A 0 CODE 0 text31 dist/default/debug/Lab4.X.debug.o
+_adc_read 14CE 0 CODE 0 text36 dist/default/debug/Lab4.X.debug.o
+send_display@units 89 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Lspace_0 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Lspace_1 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Lspace_2 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Lspace_4 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-__pbssCOMRAM 19 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
-lcd_cmd@cmd 4 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+_send_rgb A72 0 CODE 0 text17 dist/default/debug/Lab4.X.debug.o
+__pbssCOMRAM 4D 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+_load_custom_characters 1366 0 CODE 0 text18 dist/default/debug/Lab4.X.debug.o
+lcd_cmd@cmd 8B 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+_PIR1bits F9E 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+vfpfcnvrt@convarg 10 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of_adc_init 162A 0 CODE 0 text31 dist/default/debug/Lab4.X.debug.o
+__end_of_adc_read 14F2 0 CODE 0 text36 dist/default/debug/Lab4.X.debug.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-lcd_send_nibble@nibble 2 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-end_of_initialization 724A 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
+lcd_send_nibble@nibble 89 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+motor_control@value 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+end_of_initialization 12D4 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
+__end_of_send_rgb B56 0 CODE 0 text17 dist/default/debug/Lab4.X.debug.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug/Lab4.X.debug.o
 __Hintentry 0 0 ABS 0 intentry dist/default/debug/Lab4.X.debug.o
-___awdiv@quotient 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-?___awdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-?___awmod 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+_RCONbits FD0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+fputc@c 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+_motor_status 54 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+___awdiv@quotient 8E 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+?___awdiv 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+?___awmod 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+___lwdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+_IntToString 1568 0 CODE 0 text39 dist/default/debug/Lab4.X.debug.o
+?___lwdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+?___lwmod 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+isr@value 4B 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+vfprintf@fmt 16 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Hreset_vec 6 0 CODE 0 reset_vec dist/default/debug/Lab4.X.debug.o
-___awmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug/Lab4.X.debug.o
+___awmod@dividend 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Lramtop 800 0 RAM 0 ramtop dist/default/debug/Lab4.X.debug.o
+__end_of_UART_Init 160A 0 CODE 0 text32 dist/default/debug/Lab4.X.debug.o
+__end_of_UART_Read 15F8 0 CODE 0 text14 dist/default/debug/Lab4.X.debug.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/debug/Lab4.X.debug.o
-__pcinit 7226 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
-__end_of_keypad_init 71BA 0 CODE 0 text17 dist/default/debug/Lab4.X.debug.o
-__ptext0 7336 0 CODE 0 text0 dist/default/debug/Lab4.X.debug.o
-__ptext1 7928 0 CODE 0 text1 dist/default/debug/Lab4.X.debug.o
-__ptext2 7A80 0 CODE 0 text2 dist/default/debug/Lab4.X.debug.o
-__ptext3 764A 0 CODE 0 text3 dist/default/debug/Lab4.X.debug.o
-__ptext4 772A 0 CODE 0 text4 dist/default/debug/Lab4.X.debug.o
-__ptext5 781C 0 CODE 0 text5 dist/default/debug/Lab4.X.debug.o
-__ptext6 74CE 0 CODE 0 text6 dist/default/debug/Lab4.X.debug.o
-__ptext7 7254 0 CODE 0 text7 dist/default/debug/Lab4.X.debug.o
-__ptext8 71E2 0 CODE 0 text8 dist/default/debug/Lab4.X.debug.o
-__ptext9 728A 0 CODE 0 text9 dist/default/debug/Lab4.X.debug.o
+__pcinit 129C 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
+__end_of_keypad_init 1644 0 CODE 0 text22 dist/default/debug/Lab4.X.debug.o
+i2_UART_Write 159A 0 CODE 0 text38 dist/default/debug/Lab4.X.debug.o
+vfpfcnvrt@ap B 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+vfpfcnvrt@cp E 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+vfpfcnvrt@fp 9 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__ptext0 B56 0 CODE 0 text0 dist/default/debug/Lab4.X.debug.o
+__ptext1 1534 0 CODE 0 text1 dist/default/debug/Lab4.X.debug.o
+__ptext2 15C2 0 CODE 0 text2 dist/default/debug/Lab4.X.debug.o
+__ptext3 288 0 CODE 0 text3 dist/default/debug/Lab4.X.debug.o
+__ptext4 12 0 CODE 0 text4 dist/default/debug/Lab4.X.debug.o
+__ptext5 972 0 CODE 0 text5 dist/default/debug/Lab4.X.debug.o
+__ptext6 E46 0 CODE 0 text6 dist/default/debug/Lab4.X.debug.o
+__ptext7 60E 0 CODE 0 text7 dist/default/debug/Lab4.X.debug.o
+__ptext8 15D4 0 CODE 0 text8 dist/default/debug/Lab4.X.debug.o
+__ptext9 742 0 CODE 0 text9 dist/default/debug/Lab4.X.debug.o
+count_update_screen@piezas_obj 96 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/debug/Lab4.X.debug.o
+vfprintf@ap 18 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+vfprintf@fp 15 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+vfprintf@cfmt 19 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Ltext10 0 0 ABS 0 text10 dist/default/debug/Lab4.X.debug.o
 __Ltext11 0 0 ABS 0 text11 dist/default/debug/Lab4.X.debug.o
 __Ltext12 0 0 ABS 0 text12 dist/default/debug/Lab4.X.debug.o
@@ -633,33 +1187,87 @@ __Ltext14 0 0 ABS 0 text14 dist/default/debug/Lab4.X.debug.o
 __Ltext15 0 0 ABS 0 text15 dist/default/debug/Lab4.X.debug.o
 __Ltext16 0 0 ABS 0 text16 dist/default/debug/Lab4.X.debug.o
 __Ltext17 0 0 ABS 0 text17 dist/default/debug/Lab4.X.debug.o
-__ramtop 800 0 RAM 0 ramtop /tmp/xcgqjGhkP/driver_tmp_9.o
+__Ltext18 0 0 ABS 0 text18 dist/default/debug/Lab4.X.debug.o
+__Ltext19 0 0 ABS 0 text19 dist/default/debug/Lab4.X.debug.o
+__Ltext20 0 0 ABS 0 text20 dist/default/debug/Lab4.X.debug.o
+__Ltext21 0 0 ABS 0 text21 dist/default/debug/Lab4.X.debug.o
+__Ltext22 0 0 ABS 0 text22 dist/default/debug/Lab4.X.debug.o
+__Ltext23 0 0 ABS 0 text23 dist/default/debug/Lab4.X.debug.o
+__Ltext24 0 0 ABS 0 text24 dist/default/debug/Lab4.X.debug.o
+__Ltext25 0 0 ABS 0 text25 dist/default/debug/Lab4.X.debug.o
+__Ltext26 0 0 ABS 0 text26 dist/default/debug/Lab4.X.debug.o
+__Ltext27 0 0 ABS 0 text27 dist/default/debug/Lab4.X.debug.o
+__Ltext28 0 0 ABS 0 text28 dist/default/debug/Lab4.X.debug.o
+__Ltext29 0 0 ABS 0 text29 dist/default/debug/Lab4.X.debug.o
+__Ltext30 0 0 ABS 0 text30 dist/default/debug/Lab4.X.debug.o
+__Ltext31 0 0 ABS 0 text31 dist/default/debug/Lab4.X.debug.o
+__Ltext32 0 0 ABS 0 text32 dist/default/debug/Lab4.X.debug.o
+__Ltext34 0 0 ABS 0 text34 dist/default/debug/Lab4.X.debug.o
+__Ltext35 0 0 ABS 0 text35 dist/default/debug/Lab4.X.debug.o
+__Ltext36 0 0 ABS 0 text36 dist/default/debug/Lab4.X.debug.o
+__Ltext37 0 0 ABS 0 text37 dist/default/debug/Lab4.X.debug.o
+__Ltext38 0 0 ABS 0 text38 dist/default/debug/Lab4.X.debug.o
+__Ltext39 0 0 ABS 0 text39 dist/default/debug/Lab4.X.debug.o
+__Ltext40 0 0 ABS 0 text40 dist/default/debug/Lab4.X.debug.o
+__Ltext41 0 0 ABS 0 text41 dist/default/debug/Lab4.X.debug.o
+__Ltext42 0 0 ABS 0 text42 dist/default/debug/Lab4.X.debug.o
+__Ltext43 0 0 ABS 0 text43 dist/default/debug/Lab4.X.debug.o
+__Ltext44 0 0 ABS 0 text44 dist/default/debug/Lab4.X.debug.o
+__Ltext45 0 0 ABS 0 text45 dist/default/debug/Lab4.X.debug.o
+__Ltext46 0 0 ABS 0 text46 dist/default/debug/Lab4.X.debug.o
+__ramtop 800 0 RAM 0 ramtop /tmp/xcJj03KOt/driver_tmp_14.o
+_sprintf 141A 0 CODE 0 text40 dist/default/debug/Lab4.X.debug.o
+_vfprintf 1324 0 CODE 0 text41 dist/default/debug/Lab4.X.debug.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/debug/Lab4.X.debug.o
-set_status@new_status A 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+UART_Write@data 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_create_char 129C 0 CODE 0 text19 dist/default/debug/Lab4.X.debug.o
+set_status@new_status 97 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug/Lab4.X.debug.o
+sprintf@ap 20 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __H__absolute__ 0 0 ABS 0 __absolute__ dist/default/debug/Lab4.X.debug.o
-_int0_triggered 1E 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+_int0_triggered 85 0 BANK0 1 bssBANK0 dist/default/debug/Lab4.X.debug.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug/Lab4.X.debug.o
-_lcd_set_cursor 728A 0 CODE 0 text9 dist/default/debug/Lab4.X.debug.o
-___heap_hi 0 0 ABS 0 - /tmp/xcgqjGhkP/driver_tmp_9.o
-___heap_lo 0 0 ABS 0 - /tmp/xcgqjGhkP/driver_tmp_9.o
+_lcd_set_cursor 13A4 0 CODE 0 text26 dist/default/debug/Lab4.X.debug.o
+_UART_Init 15F8 0 CODE 0 text32 dist/default/debug/Lab4.X.debug.o
+_UART_Read 15E6 0 CODE 0 text14 dist/default/debug/Lab4.X.debug.o
+__end_of_vfprintf 1366 0 CODE 0 text41 dist/default/debug/Lab4.X.debug.o
+___heap_hi 0 0 ABS 0 - /tmp/xcJj03KOt/driver_tmp_14.o
+___heap_lo 0 0 ABS 0 - /tmp/xcJj03KOt/driver_tmp_14.o
 ___param_bank 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
-___intlo_stack_hi 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
-___intlo_stack_lo 0 0 STACK 2 stack /tmp/xcgqjGhkP/driver_tmp_9.o
+___intlo_stack_hi 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
+___intlo_stack_lo 0 0 STACK 2 stack /tmp/xcJj03KOt/driver_tmp_14.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug/Lab4.X.debug.o
-__end_of__initialization 724A 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
-___awmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of__initialization 12D4 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
+___awmod@divisor 8A 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/debug/Lab4.X.debug.o
+__pidataBANK0 15B0 0 CODE 0 idataBANK0 dist/default/debug/Lab4.X.debug.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/debug/Lab4.X.debug.o
-_led_estado 1C 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of_motor_control 15E6 0 CODE 0 text8 dist/default/debug/Lab4.X.debug.o
+_led_estado 51 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-_set_status 764A 0 CODE 0 text3 dist/default/debug/Lab4.X.debug.o
-__pmediumconst 7C5A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
-__end_of_atoi 7928 0 CODE 0 text5 dist/default/debug/Lab4.X.debug.o
-__end_of_loop 7A80 0 CODE 0 text1 dist/default/debug/Lab4.X.debug.o
-__end_of_main 73A8 0 CODE 0 text0 dist/default/debug/Lab4.X.debug.o
+_set_status 60E 0 CODE 0 text7 dist/default/debug/Lab4.X.debug.o
+_TXSTAbits FAC 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+__pmediumconst 7C3A 0 MEDIUMCONST 0 mediumconst dist/default/debug/Lab4.X.debug.o
+vfpfcnvrt@c 14 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+sprintf@f 21 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+sprintf@s 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_of_atoi 972 0 CODE 0 text12 dist/default/debug/Lab4.X.debug.o
+__end_of_loop 488 0 CODE 0 text3 dist/default/debug/Lab4.X.debug.o
+__end_of_main C24 0 CODE 0 text0 dist/default/debug/Lab4.X.debug.o
+__pintcode 8 0 CODE 0 intcode dist/default/debug/Lab4.X.debug.o
+_lcd_create_char 124A 0 CODE 0 text19 dist/default/debug/Lab4.X.debug.o
+__end_of_fputc F9A 0 CODE 0 text43 dist/default/debug/Lab4.X.debug.o
+?_sprintf 1B 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 _PORTB F81 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_RCREG FAE 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_SPBRG FAF 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_T1CON FCD 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_TMR1H FCF 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_TMR1L FCE 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 _TRISB F93 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+_TXREG FAD 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
+__end_of_putch 1646 0 CODE 0 text44 dist/default/debug/Lab4.X.debug.o
+count_update_screen@dec_pending 93 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __HRAM 0 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Hbss 0 0 RAM 1 bss dist/default/debug/Lab4.X.debug.o
 __Hram 0 0 ABS 0 ram dist/default/debug/Lab4.X.debug.o
@@ -668,19 +1276,30 @@ __LRAM 1 0 ABS 0 - dist/default/debug/Lab4.X.debug.o
 __Lbss 0 0 RAM 1 bss dist/default/debug/Lab4.X.debug.o
 __Lram 0 0 ABS 0 ram dist/default/debug/Lab4.X.debug.o
 __Lsfr 0 0 ABS 0 sfr dist/default/debug/Lab4.X.debug.o
-atoi@neg 6 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-__end_of_lcd_set_cursor 72C4 0 CODE 0 text9 dist/default/debug/Lab4.X.debug.o
-atoi@n 7 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
-atoi@s 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
+atoi@neg 8D 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+_flags 53 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+_fputc EF0 0 CODE 0 text43 dist/default/debug/Lab4.X.debug.o
+_putch 1644 0 CODE 0 text44 dist/default/debug/Lab4.X.debug.o
+_width 4D 0 COMRAM 1 bssCOMRAM dist/default/debug/Lab4.X.debug.o
+__end_ofi2_UART_Write 15B0 0 CODE 0 text38 dist/default/debug/Lab4.X.debug.o
+__end_of_lcd_set_cursor 13E2 0 CODE 0 text26 dist/default/debug/Lab4.X.debug.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/debug/Lab4.X.debug.o
+get_valid_input_count@key A4 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+atoi@n 8E 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+atoi@s 88 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
+?_adc_read 1 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Hsivt_hi 0 0 CODE 0 sivt_hi dist/default/debug/Lab4.X.debug.o
 __Hsivt_lo 18 0 CODE 0 sivt_lo dist/default/debug/Lab4.X.debug.o
-__initialization 7226 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
-__pdataCOMRAM 21 0 COMRAM 1 dataCOMRAM dist/default/debug/Lab4.X.debug.o
+__initialization 129C 0 CODE 0 cinit dist/default/debug/Lab4.X.debug.o
+__pbssBANK0 60 0 BANK0 1 bssBANK0 dist/default/debug/Lab4.X.debug.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/debug/Lab4.X.debug.o
+motor_control_with_level@value 3 0 COMRAM 1 cstackCOMRAM dist/default/debug/Lab4.X.debug.o
 __Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug/Lab4.X.debug.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/debug/Lab4.X.debug.o
+_motor_control_with_level 12E2 0 CODE 0 text34 dist/default/debug/Lab4.X.debug.o
+get_valid_input_count@c 9F 0 BANK0 1 cstackBANK0 dist/default/debug/Lab4.X.debug.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug/Lab4.X.debug.o
-__Hintcode 8 0 CODE 0 intcode dist/default/debug/Lab4.X.debug.o
+__Hintcode E 0 CODE 0 intcode dist/default/debug/Lab4.X.debug.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -705,30 +1324,11 @@ __Hintcode 8 0 CODE 0 intcode dist/default/debug/Lab4.X.debug.o
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-cinit 0 7226 7226 2E 1
-text0 0 7336 7336 72 1
-text1 0 7928 7928 158 1
-text2 0 7A80 7A80 1DA 1
-text3 0 764A 764A E0 1
-text4 0 772A 772A F2 1
-text5 0 781C 781C 10C 1
-text6 0 74CE 74CE BA 1
-text7 0 7254 7254 36 1
-text8 0 71E2 71E2 1E 1
-text9 0 728A 728A 3A 1
-text10 0 7420 7420 AE 1
-text11 0 7588 7588 C2 1
-text12 0 72C4 72C4 72 1
-text13 0 71CA 71CA 18 1
-text14 0 7200 7200 26 1
-text15 0 73A8 73A8 78 1
-text16 0 71BA 71BA 10 1
-text17 0 71B0 71B0 A 1
-idataCOMRAM 0 71AE 71AE 2 1
-cstackCOMRAM 1 1 1 22 1
-init 0 7D3C 7D3C 4 1
+cstackCOMRAM 1 1 1 56 1
 reset_vec 0 0 0 6 1
-mediumconst 0 7C5A 7C5A E2 1
+bssBANK0 1 60 60 5B 1
+intcode 0 8 8 163E 1
+mediumconst 0 7C3A 7C3A 106 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

@@ -5754,7 +5754,18 @@ void lcd_set_cursor(unsigned char row, unsigned char col);
 void lcd_write(const char *str);
 void lcd_create_char(unsigned char location, unsigned char *charmap);
 void load_custom_characters(void);
+void count_update_screen(unsigned char piezas_obj, unsigned char piezas_cont);
 # 4 "lcd.c" 2
+# 1 "./rgb.h" 1
+# 19 "./rgb.h"
+void rgb_init(void);
+void send_rgb(unsigned char units);
+# 5 "lcd.c" 2
+# 1 "./display.h" 1
+# 20 "./display.h"
+void send_display(unsigned char units);
+void display_init(void);
+# 6 "lcd.c" 2
 
 void lcd_pulse() {
     LATAbits.LATA5 = 1; _delay((unsigned long)((1)*(8000000/4000000.0)));
@@ -5854,4 +5865,32 @@ void lcd_init() {
     lcd_clear();
 
     load_custom_characters();
+
+    display_init();
+    rgb_init();
+}
+
+void count_update_screen(unsigned char piezas_obj, unsigned char piezas_cont) {
+
+    lcd_clear();
+    lcd_set_cursor(1, 1);
+    lcd_write("Objetivo:");
+    lcd_set_cursor(1, 11);
+    lcd_data((piezas_obj / 10) + '0');
+    lcd_data((piezas_obj % 10) + '0');
+
+    unsigned char units_pending = ( (piezas_obj-piezas_cont) % 10) + '0';
+    unsigned char dec_pending = ( (piezas_obj-piezas_cont) / 10) + '0';
+
+    unsigned char units_counted = ( (piezas_cont) % 10);
+    unsigned char dec_counted = ( (piezas_cont) / 10);
+
+    lcd_set_cursor(2, 1);
+    lcd_write("Faltan:");
+    lcd_set_cursor(2, 9);
+    lcd_data(dec_pending);
+    lcd_data(units_pending);
+
+    send_display(units_counted);
+    send_rgb(dec_counted);
 }

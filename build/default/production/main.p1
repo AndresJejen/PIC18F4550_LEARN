@@ -1,42 +1,46 @@
 Version 4.0 HI-TECH Software Intermediate Code
-[t ~ __interrupt . k ]
-[t T36 __interrupt ]
-"4474 /Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4474:     struct {
-[s S178 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S178 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF SPPIF ]
-"4484
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4484:     struct {
-[s S179 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S179 . . TX1IF RC1IF . PSPIF ]
-"4473
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4473: typedef union {
-[u S177 `S178 1 `S179 1 ]
-[n S177 . . . ]
-"4492
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4492: extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
-[v _PIR1bits `VS177 ~T0 @X0 0 e@3998 ]
-"7532
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7532: extern volatile unsigned char TMR1H __attribute__((address(0xFCF)));
-[v _TMR1H `Vuc ~T0 @X0 0 e@4047 ]
-"7525
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7525: extern volatile unsigned char TMR1L __attribute__((address(0xFCE)));
-[v _TMR1L `Vuc ~T0 @X0 0 e@4046 ]
-"2979
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2979:     struct {
-[s S127 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S127 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 LATA6 ]
-"2988
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2988:     struct {
-[s S128 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S128 . LA0 LA1 LA2 LA3 LA4 LA5 LA6 ]
-"2978
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2978: typedef union {
-[u S126 `S127 1 `S128 1 ]
-[n S126 . . . ]
-"2998
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2998: extern volatile LATAbits_t LATAbits __attribute__((address(0xF89)));
-[v _LATAbits `VS126 ~T0 @X0 0 e@3977 ]
+"121 /Applications/microchip/xc8/v3.00/pic/include/c99/stdio.h
+[; ;/Applications/microchip/xc8/v3.00/pic/include/c99/stdio.h: 121: int sprintf(char *restrict, const char *restrict, ...);
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"7545 /Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7545:     struct {
+[s S322 :1 `uc 1 ]
+[n S322 . NOT_BOR ]
+"7548
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7548:     struct {
+[s S323 :1 `uc 1 :1 `uc 1 ]
+[n S323 . . NOT_POR ]
+"7552
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7552:     struct {
+[s S324 :2 `uc 1 :1 `uc 1 ]
+[n S324 . . NOT_PD ]
+"7556
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7556:     struct {
+[s S325 :3 `uc 1 :1 `uc 1 ]
+[n S325 . . NOT_TO ]
+"7560
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7560:     struct {
+[s S326 :4 `uc 1 :1 `uc 1 ]
+[n S326 . . NOT_RI ]
+"7564
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7564:     struct {
+[s S327 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S327 . nBOR nPOR nPD nTO nRI . SBOREN IPEN ]
+"7574
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7574:     struct {
+[s S328 :7 `uc 1 :1 `uc 1 ]
+[n S328 . . NOT_IPEN ]
+"7578
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7578:     struct {
+[s S329 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S329 . BOR POR PD TO RI . nIPEN ]
+"7544
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7544: typedef union {
+[u S321 `S322 1 `S323 1 `S324 1 `S325 1 `S326 1 `S327 1 `S328 1 `S329 1 ]
+[n S321 . . . . . . . . . ]
+"7588
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7588: extern volatile RCONbits_t RCONbits __attribute__((address(0xFD0)));
+[v _RCONbits `VS321 ~T0 @X0 0 e@4048 ]
 "18 ./lcd.h
 [; ;./lcd.h: 18: void lcd_clear(void);
 [v _lcd_clear `(v ~T0 @X0 0 ef ]
@@ -46,7 +50,19 @@ Version 4.0 HI-TECH Software Intermediate Code
 "22
 [; ;./lcd.h: 22: void lcd_write(const char *str);
 [v _lcd_write `(v ~T0 @X0 0 ef1`*Cuc ]
-"19
+"20 ./display.h
+[; ;./display.h: 20: void send_display(unsigned char units);
+[v _send_display `(v ~T0 @X0 0 ef1`uc ]
+"20 ./rgb.h
+[; ;./rgb.h: 20: void send_rgb(unsigned char units);
+[v _send_rgb `(v ~T0 @X0 0 ef1`uc ]
+"25 ./lcd.h
+[; ;./lcd.h: 25: void count_update_screen(unsigned char piezas_obj, unsigned char piezas_cont);
+[v _count_update_screen `(v ~T0 @X0 0 ef2`uc`uc ]
+"17 ./motor.h
+[; ;./motor.h: 17: void motor_control(unsigned int value);
+[v _motor_control `(v ~T0 @X0 0 ef1`ui ]
+"19 ./lcd.h
 [; ;./lcd.h: 19: void lcd_cmd(unsigned char cmd);
 [v _lcd_cmd `(v ~T0 @X0 0 ef1`uc ]
 "9 ./keypad.h
@@ -62,6 +78,62 @@ Version 4.0 HI-TECH Software Intermediate Code
 "20 /Applications/microchip/xc8/v3.00/pic/include/builtins.h
 [v __delay `JF205 ~T0 @X0 0 e ]
 [p i __delay ]
+"2979 /Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2979:     struct {
+[s S127 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S127 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 LATA6 ]
+"2988
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2988:     struct {
+[s S128 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S128 . LA0 LA1 LA2 LA3 LA4 LA5 LA6 ]
+"2978
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2978: typedef union {
+[u S126 `S127 1 `S128 1 ]
+[n S126 . . . ]
+"2998
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2998: extern volatile LATAbits_t LATAbits __attribute__((address(0xF89)));
+[v _LATAbits `VS126 ~T0 @X0 0 e@3977 ]
+"4474
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4474:     struct {
+[s S178 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S178 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF SPPIF ]
+"4484
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4484:     struct {
+[s S179 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S179 . . TX1IF RC1IF . PSPIF ]
+"4473
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4473: typedef union {
+[u S177 `S178 1 `S179 1 ]
+[n S177 . . . ]
+"4492
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4492: extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
+[v _PIR1bits `VS177 ~T0 @X0 0 e@3998 ]
+"22 ./uart.h
+[; ;./uart.h: 22: char UART_Read(void);
+[v _UART_Read `(uc ~T0 @X0 0 ef ]
+"16
+[; ;./uart.h: 16: void UART_Write(char data);
+[v _UART_Write `(v ~T0 @X0 0 ef1`uc ]
+"20
+[; ;./uart.h: 20: void handle_serial_command(char cmd);
+[v _handle_serial_command `(v ~T0 @X0 0 ef1`uc ]
+[t ~ __interrupt . k ]
+[t T36 __interrupt ]
+"7532 /Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7532: extern volatile unsigned char TMR1H __attribute__((address(0xFCF)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@4047 ]
+"7525
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7525: extern volatile unsigned char TMR1L __attribute__((address(0xFCE)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@4046 ]
+"15 ./adc.h
+[; ;./adc.h: 15: unsigned int adc_read(void);
+[v _adc_read `(ui ~T0 @X0 0 ef ]
+"33 main.c
+[; ;main.c: 33:         send_rgb(6);
+[v _motor_control_with_level `(v ~T0 @X0 0 ef1`ui ]
+"18 ./uart.h
+[; ;./uart.h: 18: void UART_Write_Text(const char* text);
+[v _UART_Write_Text `(v ~T0 @X0 0 ef1`*Cuc ]
 "2569 /Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h
 [; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2569:     struct {
 [s S111 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -89,58 +161,6 @@ Version 4.0 HI-TECH Software Intermediate Code
 "2605
 [; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 2605: extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
 [v _PORTCbits `VS110 ~T0 @X0 0 e@3970 ]
-"3438
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3438:     struct {
-[s S142 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S142 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 ]
-"3447
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3447:     struct {
-[s S143 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S143 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 ]
-"3437
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3437: typedef union {
-[u S141 `S142 1 `S143 1 ]
-[n S141 . . . ]
-"3457
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3457: extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF92)));
-[v _TRISAbits `VS141 ~T0 @X0 0 e@3986 ]
-"7415
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7415: extern volatile unsigned char T1CON __attribute__((address(0xFCD)));
-[v _T1CON `Vuc ~T0 @X0 0 e@4045 ]
-"4390
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4390:     struct {
-[s S175 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S175 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE SPPIE ]
-"4400
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4400:     struct {
-[s S176 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S176 . . TX1IE RC1IE . PSPIE ]
-"4389
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4389: typedef union {
-[u S174 `S175 1 `S176 1 ]
-[n S174 . . . ]
-"4408
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 4408: extern volatile PIE1bits_t PIE1bits __attribute__((address(0xF9D)));
-[v _PIE1bits `VS174 ~T0 @X0 0 e@3997 ]
-"8588
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 8588:     struct {
-[s S360 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S360 . RBIF INT0IF TMR0IF RBIE INT0IE TMR0IE PEIE_GIEL GIE_GIEH ]
-"8598
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 8598:     struct {
-[s S361 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S361 . . INT0F T0IF . INT0E T0IE PEIE GIE ]
-"8608
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 8608:     struct {
-[s S362 :6 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S362 . . GIEL GIEH ]
-"8587
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 8587: typedef union {
-[u S359 `S360 1 `S361 1 `S362 1 ]
-[n S359 . . . . ]
-"8614
-[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 8614: extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
-[v _INTCONbits `VS359 ~T0 @X0 0 e@4082 ]
 [p mainexit ]
 "7986
 [; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 7986: extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
@@ -175,12 +195,39 @@ Version 4.0 HI-TECH Software Intermediate Code
 "3875
 [; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3875: extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF94)));
 [v _TRISCbits `VS153 ~T0 @X0 0 e@3988 ]
+"3438
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3438:     struct {
+[s S142 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S142 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 ]
+"3447
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3447:     struct {
+[s S143 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S143 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 ]
+"3437
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3437: typedef union {
+[u S141 `S142 1 `S143 1 ]
+[n S141 . . . ]
+"3457
+[; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 3457: extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF92)));
+[v _TRISAbits `VS141 ~T0 @X0 0 e@3986 ]
 "17 ./lcd.h
 [; ;./lcd.h: 17: void lcd_init(void);
 [v _lcd_init `(v ~T0 @X0 0 ef ]
 "8 ./keypad.h
 [; ;./keypad.h: 8: void keypad_init(void);
 [v _keypad_init `(v ~T0 @X0 0 ef ]
+"16 ./timer.h
+[; ;./timer.h: 16: void timer1_init(void);
+[v _timer1_init `(v ~T0 @X0 0 ef ]
+"14 ./adc.h
+[; ;./adc.h: 14: void adc_init(void);
+[v _adc_init `(v ~T0 @X0 0 ef ]
+"18 ./motor.h
+[; ;./motor.h: 18: void motor_init(void);
+[v _motor_init `(v ~T0 @X0 0 ef ]
+"14 ./uart.h
+[; ;./uart.h: 14: void UART_Init(void);
+[v _UART_Init `(v ~T0 @X0 0 ef ]
 "54 /Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h
 [; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 54: __asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
@@ -691,710 +738,917 @@ Version 4.0 HI-TECH Software Intermediate Code
 "8893
 [; ;/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8/pic/include/proc/pic18f4550.h: 8893: __asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-"12 main.c
-[; ;main.c: 12: volatile unsigned char piezas_contadas = 0;
-[; ;main.c: 12: 
-[v _piezas_contadas `Vuc ~T0 @X0 1 e ]
+"18 main.c
+[; ;main.c: 18: unsigned char piezas_contadas = 0;
+[; ;main.c: 18:     RCONbits.POR = 0;
+[v _piezas_contadas `uc ~T0 @X0 1 e ]
 [i _piezas_contadas
 -> -> 0 `i `uc
 ]
-"13
-[; ;main.c: 13: unsigned char piezas_objetivo = 0;
-[; ;main.c: 13: void set_status(char *new_status) {
+"19
+[; ;main.c: 19: unsigned char piezas_objetivo = 0;
+[; ;main.c: 19:     RCONbits.RI = 0;
 [v _piezas_objetivo `uc ~T0 @X0 1 e ]
 [i _piezas_objetivo
 -> -> 0 `i `uc
 ]
-"14
-[; ;main.c: 14: char *status = "welcome";
-[; ;main.c: 14:     status = new_status;
+"20
+[; ;main.c: 20: char *status = "welcome";
+[; ;main.c: 20: }
 [v _status `*uc ~T0 @X0 1 e ]
 [i _status
 :s 1C
 ]
-"15
-[; ;main.c: 15: volatile unsigned int led_estado = 0;
-[; ;main.c: 15:     if (new_status == "welcome"){
+"21
+[; ;main.c: 21: volatile unsigned int led_estado = 0;
+[; ;main.c: 21: 
 [v _led_estado `Vui ~T0 @X0 1 e ]
 [i _led_estado
 -> -> 0 `i `ui
 ]
-"16
-[; ;main.c: 16: volatile unsigned int led_lbk_estado = 0;
-[; ;main.c: 16: 
+"22
+[; ;main.c: 22: volatile unsigned int led_lbk_estado = 0;
+[; ;main.c: 22: void set_status(char *new_status) {
 [v _led_lbk_estado `Vui ~T0 @X0 1 e ]
 [i _led_lbk_estado
 -> -> 0 `i `ui
 ]
-"17
-[; ;main.c: 17: volatile unsigned char int0_triggered = 0;
-[; ;main.c: 17:     }
+"23
+[; ;main.c: 23: volatile unsigned char int0_triggered = 0;
+[; ;main.c: 23:     status = new_status;
 [v _int0_triggered `Vuc ~T0 @X0 1 e ]
 [i _int0_triggered
 -> -> 0 `i `uc
 ]
-"19
-[; ;main.c: 19: 
-[p x FOSC  =  INTOSCIO_EC ]
-"20
-[; ;main.c: 20:     }
-[p x WDT  =  OFF ]
-"21
-[; ;main.c: 21:     else if (new_status == "fail_input") {
-[p x PWRT  =  ON ]
-"22
-[; ;main.c: 22: 
-[p x MCLRE  =  ON ]
-"23
-[; ;main.c: 23:     }
-[p x LVP  =  OFF ]
 "24
-[; ;main.c: 24:     else if (new_status == "count") {
-[p x PBADEN  =  OFF ]
-[v $root$_isr `(v ~T0 @X0 0 e ]
+[; ;main.c: 24: volatile unsigned char t3_interrupts = 0;
+[; ;main.c: 24:     send_display(0);
+[v _t3_interrupts `Vuc ~T0 @X0 1 e ]
+[i _t3_interrupts
+-> -> 0 `i `uc
+]
 "26
-[; ;main.c: 26:     }
-[v _isr `(v ~T36 @X0 1 ef ]
-{
-[e :U _isr ]
-[f ]
+[; ;main.c: 26:         send_rgb(6);
+[p x FOSC  =  INTOSCIO_EC ]
 "27
-[; ;main.c: 27:     else if (new_status == "end_count") {
-[e $ ! != -> . . _PIR1bits 0 0 `i -> 0 `i 368  ]
-{
+[; ;main.c: 27:     }
+[p x WDT  =  OFF ]
 "28
-[; ;main.c: 28: 
-[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+[; ;main.c: 28:     else if (new_status == "ask") {
+[p x PWRT  =  ON ]
+"29
+[; ;main.c: 29:         piezas_contadas = 0;
+[p x MCLRE  =  ON ]
+"30
+[; ;main.c: 30:         send_rgb(6);
+[p x LVP  =  OFF ]
 "31
-[; ;main.c: 31:         lcd_clear();
-[e = _TMR1H -> -> 11 `i `uc ]
-"32
-[; ;main.c: 32:         lcd_set_cursor(1, 1);
-[e = _TMR1L -> -> 220 `i `uc ]
-"34
-[; ;main.c: 34:         lcd_set_cursor(2, 1);
-[e =^ _led_estado -> -> 1 `i `Vui ]
+[; ;main.c: 31:     }
+[p x PBADEN  =  OFF ]
 "35
-[; ;main.c: 35:         lcd_write("!!!EMERGENCIA!!!");
-[e = . . _LATAbits 0 1 -> _led_estado `uc ]
+[; ;main.c: 35:     else if (new_status == "count") {
+[v _IntToString `(v ~T0 @X0 1 ef2`ui`*uc ]
+{
+[e :U _IntToString ]
+[v _value `ui ~T0 @X0 1 r1 ]
+[v _buffer `*uc ~T0 @X0 1 r2 ]
+[f ]
 "36
-[; ;main.c: 36: 
-}
-[e :U 368 ]
+[; ;main.c: 36:         piezas_contadas = 0;
+[e ( _sprintf (1 , (. , _buffer :s 2C _value ]
 "37
-[; ;main.c: 37:         __asm(" sleep");
-[e :UE 367 ]
+[; ;main.c: 37:         count_update_screen(piezas_objetivo, piezas_contadas);
+[e :UE 369 ]
 }
 "39
-[; ;main.c: 39: }
+[; ;main.c: 39:     }
+[v _check_reset_cause `(v ~T0 @X0 1 ef ]
+{
+[e :U _check_reset_cause ]
+[f ]
+"40
+[; ;main.c: 40:     else if (new_status == "end_count") {
+[e $ ! != -> . . _RCONbits 7 1 `i -> 0 `i 371  ]
+{
+"41
+[; ;main.c: 41:         send_rgb(6);
+[e ( _lcd_clear ..  ]
+"42
+[; ;main.c: 42:     }
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"43
+[; ;main.c: 43:     else if (new_status == "stop_emergency") {
+[e ( _lcd_write (1 :s 3C ]
+"44
+[; ;main.c: 44:         send_rgb(7);
+}
+[e $U 372  ]
+[e :U 371 ]
+[e $ ! != -> . . _RCONbits 7 4 `i -> 0 `i 373  ]
+{
+"45
+[; ;main.c: 45:         lcd_clear();
+[e ( _lcd_clear ..  ]
+"46
+[; ;main.c: 46:         lcd_set_cursor(1, 1);
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"47
+[; ;main.c: 47:         lcd_write("  !!!PARADA!!!  ");
+[e ( _lcd_write (1 :s 4C ]
+"48
+[; ;main.c: 48:         lcd_set_cursor(2, 1);
+}
+[e :U 373 ]
+[e :U 372 ]
+"51
+[; ;main.c: 51: 
+[e = . . _RCONbits 7 1 -> -> 0 `i `uc ]
+"52
+[; ;main.c: 52:         __asm(" sleep");
+[e = . . _RCONbits 7 4 -> -> 0 `i `uc ]
+"53
+[; ;main.c: 53:     }
+[e :UE 370 ]
+}
+"55
+[; ;main.c: 55: 
 [v _set_status `(v ~T0 @X0 1 ef1`*uc ]
 {
 [e :U _set_status ]
 [v _new_status `*uc ~T0 @X0 1 r1 ]
 [f ]
-"40
-[; ;main.c: 40: 
-[e = _status _new_status ]
-"41
-[; ;main.c: 41: unsigned char get_valid_input_count(void) {
-[e $ ! == _new_status :s 2C 370  ]
-{
-"43
-[; ;main.c: 43:     char key;
-}
-[e $U 371  ]
-"44
-[; ;main.c: 44:     int index;
-[e :U 370 ]
-[e $ ! == _new_status :s 3C 372  ]
-{
-"46
-[; ;main.c: 46: 
-}
-[e $U 373  ]
-"47
-[; ;main.c: 47:     while (status == "ask") {
-[e :U 372 ]
-[e $ ! == _new_status :s 4C 374  ]
-{
-"49
-[; ;main.c: 49:         lcd_clear();
-}
-[e $U 375  ]
-"50
-[; ;main.c: 50:         lcd_write("Piezas a contar:");
-[e :U 374 ]
-[e $ ! == _new_status :s 5C 376  ]
-{
-"52
-[; ;main.c: 52:         lcd_cmd(0x0E);
-}
-[e $U 377  ]
-"53
-[; ;main.c: 53: 
-[e :U 376 ]
-[e $ ! == _new_status :s 6C 378  ]
-{
-"55
-[; ;main.c: 55:             key = keypad_get_key();
-}
-[e $U 379  ]
 "56
-[; ;main.c: 56:             if (key >= '0' && key <= '9' && index < 2) {
-[e :U 378 ]
-[e $ ! == _new_status :s 7C 380  ]
-{
+[; ;main.c: 56: unsigned char get_valid_input_count(void) {
+[e = _status _new_status ]
 "57
-[; ;main.c: 57:                 buffer[index++] = key;
-[e ( _lcd_clear ..  ]
+[; ;main.c: 57:     char buffer[3] = {0};
+[e ( _send_display (1 -> -> 0 `i `uc ]
 "58
-[; ;main.c: 58:                 lcd_data(key);
-[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+[; ;main.c: 58:     char key;
+[e $ ! == _new_status :s 5C 375  ]
+{
 "59
-[; ;main.c: 59:             } else if (key == 'C' && index > 0) {
-[e ( _lcd_write (1 :s 8C ]
+[; ;main.c: 59:     int index;
+[e ( _send_rgb (1 -> -> 6 `i `uc ]
 "60
-[; ;main.c: 60:                 lcd_set_cursor(2, index);
-[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+[; ;main.c: 60:     int value;
+}
+[e $U 376  ]
 "61
-[; ;main.c: 61:                 lcd_data(' ');
-[e ( _lcd_write (1 :s 9C ]
-"63
-[; ;main.c: 63:                 index--;
-[; <"  sleep ;# ">
-"64
-[; ;main.c: 64:             } else if (key == 'A') {
-}
-[e :U 380 ]
-[e :U 379 ]
-[e :U 377 ]
+[; ;main.c: 61: 
 [e :U 375 ]
-[e :U 373 ]
-[e :U 371 ]
-"65
-[; ;main.c: 65:                 buffer[index] = '\0';
-[e :UE 369 ]
+[e $ ! == _new_status :s 6C 377  ]
+{
+"62
+[; ;main.c: 62:     while (status == "ask") {
+[e = _piezas_contadas -> -> 0 `i `uc ]
+"63
+[; ;main.c: 63:         index = 0;
+[e ( _send_rgb (1 -> -> 6 `i `uc ]
+"64
+[; ;main.c: 64:         lcd_clear();
 }
+[e $U 378  ]
+"65
+[; ;main.c: 65:         lcd_write("Piezas a contar:");
+[e :U 377 ]
+[e $ ! == _new_status :s 7C 379  ]
+{
+"66
+[; ;main.c: 66:         lcd_set_cursor(2, 1);
+[e ( _send_rgb (1 -> -> 6 `i `uc ]
 "67
-[; ;main.c: 67:                 if (value >= 1 && value <= 59) {
+[; ;main.c: 67:         lcd_cmd(0x0E);
+}
+[e $U 380  ]
+"68
+[; ;main.c: 68: 
+[e :U 379 ]
+[e $ ! == _new_status :s 8C 381  ]
+{
+"69
+[; ;main.c: 69:         while (status == "ask") {
+[e = _piezas_contadas -> -> 0 `i `uc ]
+"70
+[; ;main.c: 70:             key = keypad_get_key();
+[e ( _count_update_screen (2 , _piezas_objetivo _piezas_contadas ]
+"71
+[; ;main.c: 71:             if (key >= '0' && key <= '9' && index < 2) {
+[e ( _send_rgb (1 -> -> 0 `i `uc ]
+"72
+[; ;main.c: 72:                 buffer[index++] = key;
+}
+[e $U 382  ]
+"73
+[; ;main.c: 73:                 lcd_data(key);
+[e :U 381 ]
+[e $ ! == _new_status :s 9C 383  ]
+{
+"74
+[; ;main.c: 74:             } else if (key == 'C' && index > 0) {
+[e ( _send_rgb (1 -> -> 6 `i `uc ]
+"75
+[; ;main.c: 75:                 lcd_set_cursor(2, index);
+}
+[e $U 384  ]
+"76
+[; ;main.c: 76:                 lcd_data(' ');
+[e :U 383 ]
+[e $ ! == _new_status :s 10C 385  ]
+{
+"77
+[; ;main.c: 77:                 lcd_set_cursor(2, index);
+[e ( _send_rgb (1 -> -> 7 `i `uc ]
+"78
+[; ;main.c: 78:                 index--;
+[e ( _lcd_clear ..  ]
+"79
+[; ;main.c: 79:             } else if (key == 'A') {
+[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"80
+[; ;main.c: 80:                 buffer[index] = '\0';
+[e ( _lcd_write (1 :s 11C ]
+"81
+[; ;main.c: 81:                 value = atoi(buffer);
+[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"82
+[; ;main.c: 82:                 if (value >= 1 && value <= 59) {
+[e ( _lcd_write (1 :s 12C ]
+"83
+[; ;main.c: 83:                     lcd_cmd(0x0C);
+[e ( _motor_control (1 -> -> 0 `i `ui ]
+"85
+[; ;main.c: 85:                     piezas_objetivo = value;
+[; <"  sleep ;# ">
+"86
+[; ;main.c: 86:                 } else {
+}
+[e :U 385 ]
+[e :U 384 ]
+[e :U 382 ]
+[e :U 380 ]
+[e :U 378 ]
+[e :U 376 ]
+"87
+[; ;main.c: 87:                     set_status("fail_input");
+[e :UE 374 ]
+}
+"89
+[; ;main.c: 89:                     lcd_write("Valor Invalido");
 [v _get_valid_input_count `(uc ~T0 @X0 1 ef ]
 {
 [e :U _get_valid_input_count ]
 [f ]
-[v F3241 `uc ~T0 @X0 -> 3 `i s ]
-[i F3241
+[v F3591 `uc ~T0 @X0 -> 3 `i s ]
+[i F3591
 :U ..
-"68
-[; ;main.c: 68:                     lcd_cmd(0x0C);
+"90
+[; ;main.c: 90:                     lcd_set_cursor(2, 1);
 -> -> 0 `i `uc
 ..
 ]
 [v _buffer `uc ~T0 @X0 -> 3 `i a ]
-[e = _buffer F3241 ]
-"69
-[; ;main.c: 69:                     set_status("count");
-[v _key `uc ~T0 @X0 1 a ]
-"70
-[; ;main.c: 70:                     piezas_objetivo = value;
-[v _index `i ~T0 @X0 1 a ]
-"71
-[; ;main.c: 71:                 } else {
-[v _value `i ~T0 @X0 1 a ]
-"73
-[; ;main.c: 73:                     lcd_clear();
-[e $U 382  ]
-[e :U 383 ]
-{
-"74
-[; ;main.c: 74:                     lcd_write("Valor Invalido");
-[e = _index -> 0 `i ]
-"75
-[; ;main.c: 75:                     lcd_set_cursor(2, 1);
-[e ( _lcd_clear ..  ]
-"76
-[; ;main.c: 76:                     lcd_write("Solo 1 a 59");
-[e ( _lcd_write (1 :s 11C ]
-"77
-[; ;main.c: 77:                     _delay((unsigned long)((5000)*(8000000/4000.0)));
-[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-"78
-[; ;main.c: 78:                     set_status("ask");
-[e ( _lcd_cmd (1 -> -> 14 `i `uc ]
-"80
-[; ;main.c: 80:                 }
-[e $U 385  ]
-[e :U 386 ]
-{
-"81
-[; ;main.c: 81:             } else if (key == 'B') {
-[e = _key ( _keypad_get_key ..  ]
-"82
-[; ;main.c: 82:                 set_status("stop_emergency");
-[e $ ! && && >= -> _key `ui -> 48 `ui <= -> _key `ui -> 57 `ui < _index -> 2 `i 388  ]
-{
-"83
-[; ;main.c: 83:             }
-[e = *U + &U _buffer * -> -> ++ _index -> 1 `i `ui `ux -> -> # *U &U _buffer `ui `ux _key ]
-"84
-[; ;main.c: 84:             else if (key == 'D') {
-[e ( _lcd_data (1 -> _key `uc ]
-"85
-[; ;main.c: 85:                 led_estado ^= 1;
-}
-[e $U 389  ]
-[e :U 388 ]
-[e $ ! && == -> _key `ui -> 67 `ui > _index -> 0 `i 390  ]
-{
-"86
-[; ;main.c: 86:                 LATAbits.LATA3 = led_estado;
-[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> _index `uc ]
-"87
-[; ;main.c: 87:             }
-[e ( _lcd_data (1 -> -> 32 `ui `uc ]
-"88
-[; ;main.c: 88:         }
-[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> _index `uc ]
-"89
-[; ;main.c: 89:     }
-[e -- _index -> 1 `i ]
-"90
-[; ;main.c: 90: }
-}
-[e $U 391  ]
-[e :U 390 ]
-[e $ ! == -> _key `ui -> 65 `ui 392  ]
-{
+[e = _buffer F3591 ]
 "91
-[; ;main.c: 91: 
-[e = *U + &U _buffer * -> -> _index `ui `ux -> -> # *U &U _buffer `ui `ux -> -> 0 `ui `uc ]
+[; ;main.c: 91:                     lcd_write("Solo 1 a 59");
+[v _key `uc ~T0 @X0 1 a ]
 "92
-[; ;main.c: 92: void count_update_screen(void) {
-[e = _value ( _atoi (1 -> &U _buffer `*Cuc ]
+[; ;main.c: 92:                     _delay((unsigned long)((5000)*(8000000/4000.0)));
+[v _index `i ~T0 @X0 1 a ]
 "93
-[; ;main.c: 93: 
-[e $ ! && >= _value -> 1 `i <= _value -> 59 `i 393  ]
-{
-"94
-[; ;main.c: 94:     lcd_clear();
-[e ( _lcd_cmd (1 -> -> 12 `i `uc ]
+[; ;main.c: 93:                     set_status("ask");
+[v _value `i ~T0 @X0 1 a ]
 "95
-[; ;main.c: 95:     lcd_set_cursor(1, 1);
-[e ( _set_status (1 :s 13C ]
+[; ;main.c: 95:                 }
+[e $U 387  ]
+[e :U 388 ]
+{
 "96
-[; ;main.c: 96:     lcd_write("Objetivo:");
-[e = _piezas_objetivo -> _value `uc ]
+[; ;main.c: 96:             } else if (key == 'B') {
+[e = _index -> 0 `i ]
 "97
-[; ;main.c: 97:     lcd_set_cursor(1, 11);
+[; ;main.c: 97:                 set_status("stop_emergency");
+[e ( _lcd_clear ..  ]
+"98
+[; ;main.c: 98:             }
+[e ( _lcd_write (1 :s 14C ]
+"99
+[; ;main.c: 99:             else if (key == 'D') {
+[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"100
+[; ;main.c: 100:                 led_lbk_estado ^= 1;
+[e ( _lcd_cmd (1 -> -> 14 `i `uc ]
+"102
+[; ;main.c: 102:             }
+[e $U 390  ]
+[e :U 391 ]
+{
+"103
+[; ;main.c: 103:             if (PIR1bits.RCIF) {
+[e = _key ( _keypad_get_key ..  ]
+"104
+[; ;main.c: 104:                 char c = UART_Read();
+[e $ ! && && >= -> _key `ui -> 48 `ui <= -> _key `ui -> 57 `ui < _index -> 2 `i 393  ]
+{
+"105
+[; ;main.c: 105:                 UART_Write(c);
+[e = *U + &U _buffer * -> -> ++ _index -> 1 `i `ui `ux -> -> # *U &U _buffer `ui `ux _key ]
+"106
+[; ;main.c: 106:                 handle_serial_command(c);
+[e ( _lcd_data (1 -> _key `uc ]
+"107
+[; ;main.c: 107:             }
 }
 [e $U 394  ]
 [e :U 393 ]
-{
-"98
-[; ;main.c: 98:     lcd_data((piezas_objetivo / 10) + '0');
-[e ( _set_status (1 :s 14C ]
-"99
-[; ;main.c: 99:     lcd_data((piezas_objetivo % 10) + '0');
-[e ( _lcd_clear ..  ]
-"100
-[; ;main.c: 100: 
-[e ( _lcd_write (1 :s 15C ]
-"101
-[; ;main.c: 101:     lcd_set_cursor(2, 1);
-[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-"102
-[; ;main.c: 102:     lcd_write("Faltan:");
-[e ( _lcd_write (1 :s 16C ]
-"103
-[; ;main.c: 103:     lcd_set_cursor(2, 9);
-[e ( __delay (1 -> * -> -> 5000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"104
-[; ;main.c: 104:     lcd_data(( (piezas_objetivo-piezas_contadas) / 10) + '0');
-[e ( _set_status (1 :s 17C ]
-"105
-[; ;main.c: 105:     lcd_data(( (piezas_objetivo-piezas_contadas) % 10) + '0');
-[e $U 387  ]
-"106
-[; ;main.c: 106: }
-}
-[e :U 394 ]
-"107
-[; ;main.c: 107: 
-}
-[e $U 395  ]
-[e :U 392 ]
-[e $ ! == -> _key `ui -> 66 `ui 396  ]
+[e $ ! && == -> _key `ui -> 67 `ui > _index -> 0 `i 395  ]
 {
 "108
-[; ;main.c: 108: void loop(void) {
-[e ( _set_status (1 :s 18C ]
+[; ;main.c: 108:         }
+[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> _index `uc ]
 "109
-[; ;main.c: 109:     while(status == "ask") {
-}
-[e $U 397  ]
+[; ;main.c: 109:     }
+[e ( _lcd_data (1 -> -> 32 `ui `uc ]
 "110
-[; ;main.c: 110:         get_valid_input_count();
-[e :U 396 ]
-[e $ ! == -> _key `ui -> 68 `ui 398  ]
-{
+[; ;main.c: 110: }
+[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> _index `uc ]
 "111
-[; ;main.c: 111:         count_update_screen();
-[e =^ _led_estado -> -> 1 `i `Vui ]
+[; ;main.c: 111: 
+[e -- _index -> 1 `i ]
 "112
-[; ;main.c: 112: 
-[e = . . _LATAbits 0 3 -> _led_estado `uc ]
-"113
-[; ;main.c: 113:         while (1) {
+[; ;main.c: 112: void handle_serial_command(char cmd) {
 }
-[e :U 398 ]
-[e :U 397 ]
+[e $U 396  ]
 [e :U 395 ]
-[e :U 391 ]
-[e :U 389 ]
-"114
-[; ;main.c: 114:             char key = keypad_get_key();
-}
-[e :U 385 ]
-"80
-[; ;main.c: 80:                 }
-[e $ == _status :s 12C 386  ]
-[e :U 387 ]
-"115
-[; ;main.c: 115:             if (key == '*') {
-}
-[e :U 382 ]
-"73
-[; ;main.c: 73:                     lcd_clear();
-[e $ == _status :s 10C 383  ]
-[e :U 384 ]
-"116
-[; ;main.c: 116:                 piezas_contadas = 0;
-[e :UE 381 ]
-}
-"118
-[; ;main.c: 118:                 count_update_screen();
-[v _count_update_screen `(v ~T0 @X0 1 ef ]
+[e $ ! == -> _key `ui -> 65 `ui 397  ]
 {
-[e :U _count_update_screen ]
-[f ]
-"120
-[; ;main.c: 120:             else if (key == 'D') {
-[e ( _lcd_clear ..  ]
-"121
-[; ;main.c: 121:                 led_estado ^= 1;
-[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-"122
-[; ;main.c: 122:                 LATAbits.LATA3 = led_estado;
-[e ( _lcd_write (1 :s 19C ]
-"123
-[; ;main.c: 123:             }
-[e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 11 `i `uc ]
-"124
-[; ;main.c: 124:             else if (key == 'A' && status == "end_count") {
-[e ( _lcd_data (1 -> + -> / -> _piezas_objetivo `i -> 10 `i `ui -> 48 `ui `uc ]
-"125
-[; ;main.c: 125:                 piezas_contadas = 0;
-[e ( _lcd_data (1 -> + -> % -> _piezas_objetivo `i -> 10 `i `ui -> 48 `ui `uc ]
-"127
-[; ;main.c: 127:                 break;
-[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-"128
-[; ;main.c: 128:             }
-[e ( _lcd_write (1 :s 20C ]
-"129
-[; ;main.c: 129:             else if (key == 'B') {
-[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 9 `i `uc ]
-"130
-[; ;main.c: 130:                 set_status("stop_emergency");
-[e ( _lcd_data (1 -> + -> / - -> _piezas_objetivo `i -> _piezas_contadas `i -> 10 `i `ui -> 48 `ui `uc ]
-"131
-[; ;main.c: 131:             }
-[e ( _lcd_data (1 -> + -> % - -> _piezas_objetivo `i -> _piezas_contadas `i -> 10 `i `ui -> 48 `ui `uc ]
-"132
-[; ;main.c: 132:             if ((piezas_contadas >= piezas_objetivo) && status == "count") {
-[e :UE 399 ]
+"113
+[; ;main.c: 113:     switch(cmd) {
+[e = *U + &U _buffer * -> -> _index `ui `ux -> -> # *U &U _buffer `ui `ux -> -> 0 `ui `uc ]
+"114
+[; ;main.c: 114:         case 'P':
+[e = _value ( _atoi (1 -> &U _buffer `*Cuc ]
+"115
+[; ;main.c: 115:         case 'p':
+[e $ ! && >= _value -> 1 `i <= _value -> 59 `i 398  ]
+{
+"116
+[; ;main.c: 116:             set_status("stop_emergency");
+[e ( _lcd_cmd (1 -> -> 12 `i `uc ]
+"117
+[; ;main.c: 117:             break;
+[e ( _set_status (1 :s 16C ]
+"118
+[; ;main.c: 118:         case 'E':
+[e = _piezas_objetivo -> _value `uc ]
+"119
+[; ;main.c: 119:         case 'e':
 }
+[e $U 399  ]
+[e :U 398 ]
+{
+"120
+[; ;main.c: 120: 
+[e ( _set_status (1 :s 17C ]
+"121
+[; ;main.c: 121:             motor_control(1);
+[e ( _lcd_clear ..  ]
+"122
+[; ;main.c: 122:             break;
+[e ( _lcd_write (1 :s 18C ]
+"123
+[; ;main.c: 123:         case 'A':
+[e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
+"124
+[; ;main.c: 124:         case 'a':
+[e ( _lcd_write (1 :s 19C ]
+"125
+[; ;main.c: 125:             motor_control(0);
+[e ( __delay (1 -> * -> -> 5000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"126
+[; ;main.c: 126: 
+[e ( _set_status (1 :s 20C ]
+"127
+[; ;main.c: 127:             break;
+[e $U 392  ]
+"128
+[; ;main.c: 128:         case 'R':
+}
+[e :U 399 ]
+"129
+[; ;main.c: 129:         case 'r':
+}
+[e $U 400  ]
+[e :U 397 ]
+[e $ ! == -> _key `ui -> 66 `ui 401  ]
+{
+"130
+[; ;main.c: 130:             if (status == "count") {
+[e ( _set_status (1 :s 21C ]
+"131
+[; ;main.c: 131:                 set_status("count");
+}
+[e $U 402  ]
+"132
+[; ;main.c: 132:             }
+[e :U 401 ]
+[e $ ! == -> _key `ui -> 68 `ui 403  ]
+{
+"133
+[; ;main.c: 133: 
+[e =^ _led_lbk_estado -> -> 1 `i `Vui ]
 "134
-[; ;main.c: 134:                 lcd_clear();
+[; ;main.c: 134:             break;
+[e = . . _LATAbits 0 3 -> _led_lbk_estado `uc ]
+"135
+[; ;main.c: 135:         default:
+}
+[e :U 403 ]
+[e :U 402 ]
+[e :U 400 ]
+[e :U 396 ]
+[e :U 394 ]
+"136
+[; ;main.c: 136: 
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 404  ]
+{
+"137
+[; ;main.c: 137:             break;
+[v _c `uc ~T0 @X0 1 a ]
+[e = _c ( _UART_Read ..  ]
+"138
+[; ;main.c: 138:     }
+[e ( _UART_Write (1 _c ]
+"139
+[; ;main.c: 139: }
+[e ( _handle_serial_command (1 _c ]
+"140
+[; ;main.c: 140: 
+}
+[e :U 404 ]
+"141
+[; ;main.c: 141: void __attribute__((picinterrupt(("")))) isr(void) {
+}
+[e :U 390 ]
+"102
+[; ;main.c: 102:             }
+[e $ == _status :s 15C 391  ]
+[e :U 392 ]
+"142
+[; ;main.c: 142:     if (PIR1bits.TMR1IF) {
+}
+[e :U 387 ]
+"95
+[; ;main.c: 95:                 }
+[e $ == _status :s 13C 388  ]
+[e :U 389 ]
+"143
+[; ;main.c: 143:         PIR1bits.TMR1IF = 0;
+[e :UE 386 ]
+}
+"145
+[; ;main.c: 145: 
+[v _handle_serial_command `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _handle_serial_command ]
+[v _cmd `uc ~T0 @X0 1 r1 ]
+[f ]
+"146
+[; ;main.c: 146:         TMR1H = 0x0B;
+[e $U 407  ]
+{
+"147
+[; ;main.c: 147:         TMR1L = 0xDC;
+[e :U 408 ]
+"148
+[; ;main.c: 148: 
+[e :U 409 ]
+"149
+[; ;main.c: 149:         led_estado ^= 1;
+[e ( _set_status (1 :s 22C ]
+"150
+[; ;main.c: 150:         LATAbits.LATA1 = led_estado;
+[e $U 406  ]
+"151
+[; ;main.c: 151: 
+[e :U 410 ]
+"152
+[; ;main.c: 152:         t3_interrupts++;
+[e :U 411 ]
+"154
+[; ;main.c: 154:             char buffer[20];
+[e ( _motor_control (1 -> -> 1 `i `ui ]
+"155
+[; ;main.c: 155:             unsigned int value = adc_read();
+[e $U 406  ]
+"156
+[; ;main.c: 156:             motor_control_with_level(value);
+[e :U 412 ]
+"157
+[; ;main.c: 157:             IntToString(value, buffer);
+[e :U 413 ]
+"158
+[; ;main.c: 158:             UART_Write_Text(buffer);
+[e ( _motor_control (1 -> -> 0 `i `ui ]
+"160
+[; ;main.c: 160:     }
+[e $U 406  ]
+"161
+[; ;main.c: 161: }
+[e :U 414 ]
+"162
+[; ;main.c: 162: 
+[e :U 415 ]
+"163
+[; ;main.c: 163: void loop(void) {
+[e $ ! == _status :s 23C 416  ]
+{
+"164
+[; ;main.c: 164:     while(status == "ask") {
+[e ( _set_status (1 :s 24C ]
+"165
+[; ;main.c: 165:         get_valid_input_count();
+}
+[e :U 416 ]
+"167
+[; ;main.c: 167: 
+[e $U 406  ]
+"168
+[; ;main.c: 168:         while (1) {
+[e :U 417 ]
+"170
+[; ;main.c: 170:                 char c = UART_Read();
+[e $U 406  ]
+"171
+[; ;main.c: 171:                 UART_Write(c);
+}
+[e $U 406  ]
+[e :U 407 ]
+[e [\ _cmd , $ -> -> 80 `ui `i 408
+ , $ -> -> 112 `ui `i 409
+ , $ -> -> 69 `ui `i 410
+ , $ -> -> 101 `ui `i 411
+ , $ -> -> 65 `ui `i 412
+ , $ -> -> 97 `ui `i 413
+ , $ -> -> 82 `ui `i 414
+ , $ -> -> 114 `ui `i 415
+ 417 ]
+[e :U 406 ]
+"172
+[; ;main.c: 172:                 handle_serial_command(c);
+[e :UE 405 ]
+}
+[v $root$_isr `(v ~T0 @X0 0 e ]
+"174
+[; ;main.c: 174:             char key = keypad_get_key();
+[v _isr `(v ~T36 @X0 1 ef ]
+{
+[e :U _isr ]
+[f ]
+"175
+[; ;main.c: 175:             if (key == '*') {
+[e $ ! != -> . . _PIR1bits 0 0 `i -> 0 `i 419  ]
+{
+"176
+[; ;main.c: 176:                 set_status("count");
+[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+"179
+[; ;main.c: 179:                 set_status("ask");
+[e = _TMR1H -> -> 11 `i `uc ]
+"180
+[; ;main.c: 180:                 break;
+[e = _TMR1L -> -> 220 `i `uc ]
+"182
+[; ;main.c: 182:             else if (key == 'D') {
+[e =^ _led_estado -> -> 1 `i `Vui ]
+"183
+[; ;main.c: 183:                 led_lbk_estado ^= 1;
+[e = . . _LATAbits 0 1 -> _led_estado `uc ]
+"185
+[; ;main.c: 185:             }
+[e ++ _t3_interrupts -> -> 1 `i `Vuc ]
+"186
+[; ;main.c: 186:             else if (key == 'A' && status == "end_count") {
+[e $ ! >= -> _t3_interrupts `i -> 2 `i 420  ]
+{
+"187
+[; ;main.c: 187:                 set_status("ask");
+[v _buffer `uc ~T0 @X0 -> 20 `i a ]
+"188
+[; ;main.c: 188:                 break;
+[v _value `ui ~T0 @X0 1 a ]
+[e = _value ( _adc_read ..  ]
+"189
+[; ;main.c: 189:             }
+[e ( _motor_control_with_level (1 _value ]
+"190
+[; ;main.c: 190:             else if (key == 'B') {
+[e ( _IntToString (2 , _value &U _buffer ]
+"191
+[; ;main.c: 191:                 set_status("stop_emergency");
+[e ( _UART_Write_Text (1 -> &U _buffer `*Cuc ]
+"192
+[; ;main.c: 192:             }
+}
+[e :U 420 ]
+"193
+[; ;main.c: 193: 
+}
+[e :U 419 ]
+"194
+[; ;main.c: 194:             if ((piezas_contadas >= piezas_objetivo) && status == "count") {
+[e :UE 418 ]
+}
+"196
+[; ;main.c: 196:                 lcd_clear();
 [v _loop `(v ~T0 @X0 1 ef ]
 {
 [e :U _loop ]
 [f ]
-"135
-[; ;main.c: 135:                 lcd_set_cursor(1, 1);
-[e $U 401  ]
-[e :U 402 ]
+"197
+[; ;main.c: 197:                 lcd_set_cursor(1, 1);
+[e $U 422  ]
+[e :U 423 ]
 {
-"136
-[; ;main.c: 136:                 lcd_write("ObjetivoCumplido");
+"198
+[; ;main.c: 198:                 lcd_write("ObjetivoCumplido");
 [e ( _get_valid_input_count ..  ]
-"137
-[; ;main.c: 137:                 lcd_set_cursor(2, 1);
-[e ( _count_update_screen ..  ]
-"139
-[; ;main.c: 139:                 lcd_data(1);
-[e :U 405 ]
+"199
+[; ;main.c: 199:                 lcd_set_cursor(2, 1);
+[e ( _count_update_screen (2 , _piezas_objetivo _piezas_contadas ]
+"201
+[; ;main.c: 201:                 lcd_data(1);
+[e :U 426 ]
 {
-"140
-[; ;main.c: 140:             }
+"202
+[; ;main.c: 202:             }
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 428  ]
+{
+"203
+[; ;main.c: 203: 
+[v _c `uc ~T0 @X0 1 a ]
+[e = _c ( _UART_Read ..  ]
+"204
+[; ;main.c: 204:             if (PORTCbits.RC1 == 1 && int0_triggered == 0) {
+[e ( _UART_Write (1 _c ]
+"205
+[; ;main.c: 205:                 int0_triggered = 1;
+[e ( _handle_serial_command (1 _c ]
+"206
+[; ;main.c: 206:                 if (piezas_contadas < piezas_objetivo) {
+}
+[e :U 428 ]
+"207
+[; ;main.c: 207:                     piezas_contadas++;
 [v _key `uc ~T0 @X0 1 a ]
 [e = _key ( _keypad_get_key ..  ]
-"141
-[; ;main.c: 141: 
-[e $ ! == -> _key `ui -> 42 `ui 407  ]
+"208
+[; ;main.c: 208:                     count_update_screen(piezas_objetivo, piezas_contadas);
+[e $ ! == -> _key `ui -> 42 `ui 429  ]
 {
-"142
-[; ;main.c: 142:             if (PORTCbits.RC1 == 1 && int0_triggered == 0) {
-[e = _piezas_contadas -> -> 0 `i `uc ]
-"143
-[; ;main.c: 143:                 int0_triggered = 1;
-[e ( _set_status (1 :s 22C ]
-"144
-[; ;main.c: 144:                 if (piezas_contadas < piezas_objetivo) {
-[e ( _count_update_screen ..  ]
-"145
-[; ;main.c: 145:                     piezas_contadas++;
+"209
+[; ;main.c: 209:                 }
+[e ( _set_status (1 :s 26C ]
+"210
+[; ;main.c: 210:             }
 }
-[e $U 408  ]
-"146
-[; ;main.c: 146:                     count_update_screen();
-[e :U 407 ]
-[e $ ! == -> _key `ui -> 68 `ui 409  ]
+[e :U 429 ]
+"211
+[; ;main.c: 211:             else if (PORTCbits.RC1 == 0 && int0_triggered == 1) {
+[e $ ! == -> _key `ui -> 35 `ui 430  ]
 {
-"147
-[; ;main.c: 147:                 }
-[e =^ _led_estado -> -> 1 `i `Vui ]
-"148
-[; ;main.c: 148:             }
-[e = . . _LATAbits 0 3 -> _led_estado `uc ]
-"149
-[; ;main.c: 149:             else if (PORTCbits.RC1 == 0 && int0_triggered == 1) {
-}
-[e $U 410  ]
-"150
-[; ;main.c: 150:                 int0_triggered = 0;
-[e :U 409 ]
-[e $ ! && == -> _key `ui -> 65 `ui == _status :s 23C 411  ]
-{
-"151
-[; ;main.c: 151:             }
-[e = _piezas_contadas -> -> 0 `i `uc ]
-"152
-[; ;main.c: 152:         }
-[e ( _set_status (1 :s 24C ]
-"153
-[; ;main.c: 153:     }
-[e $U 406  ]
-"154
-[; ;main.c: 154: }
-}
-[e $U 412  ]
-"155
-[; ;main.c: 155: 
-[e :U 411 ]
-[e $ ! == -> _key `ui -> 66 `ui 413  ]
-{
-"156
-[; ;main.c: 156: void timer_init(void) {
-[e ( _set_status (1 :s 25C ]
-"157
-[; ;main.c: 157:     TRISAbits.TRISA1 = 0;
-}
-[e :U 413 ]
-[e :U 412 ]
-[e :U 410 ]
-[e :U 408 ]
-"158
-[; ;main.c: 158:     LATAbits.LATA1 = 0;
-[e $ ! && >= -> _piezas_contadas `i -> _piezas_objetivo `i == _status :s 26C 414  ]
-{
-"159
-[; ;main.c: 159: 
+"212
+[; ;main.c: 212:                 int0_triggered = 0;
 [e ( _set_status (1 :s 27C ]
-"160
-[; ;main.c: 160: 
+"213
+[; ;main.c: 213:             }
+[e $U 427  ]
+"214
+[; ;main.c: 214:         }
+}
+[e $U 431  ]
+"215
+[; ;main.c: 215:     }
+[e :U 430 ]
+[e $ ! == -> _key `ui -> 68 `ui 432  ]
+{
+"216
+[; ;main.c: 216: }
+[e =^ _led_lbk_estado -> -> 1 `i `Vui ]
+"217
+[; ;main.c: 217: 
+[e = . . _LATAbits 0 3 -> _led_lbk_estado `uc ]
+"218
+[; ;main.c: 218: void main(void) {
+}
+[e $U 433  ]
+"219
+[; ;main.c: 219: 
+[e :U 432 ]
+[e $ ! && == -> _key `ui -> 65 `ui == _status :s 28C 434  ]
+{
+"220
+[; ;main.c: 220:     OSCCON = 0b01110010;
+[e ( _set_status (1 :s 29C ]
+"221
+[; ;main.c: 221:     while (!OSCCONbits.IOFS);
+[e $U 427  ]
+"222
+[; ;main.c: 222:     _delay((unsigned long)((50)*(8000000/4000.0)));
+}
+[e $U 435  ]
+"223
+[; ;main.c: 223: 
+[e :U 434 ]
+[e $ ! == -> _key `ui -> 66 `ui 436  ]
+{
+"224
+[; ;main.c: 224:     TRISCbits.TRISC1 = 1;
+[e ( _set_status (1 :s 30C ]
+"225
+[; ;main.c: 225:     TRISAbits.TRISA3 = 0;
+}
+[e :U 436 ]
+[e :U 435 ]
+[e :U 433 ]
+[e :U 431 ]
+"227
+[; ;main.c: 227:     lcd_init();
+[e $ ! && >= -> _piezas_contadas `i -> _piezas_objetivo `i == _status :s 31C 437  ]
+{
+"228
+[; ;main.c: 228:     keypad_init();
+[e ( _set_status (1 :s 32C ]
+"229
+[; ;main.c: 229:     timer1_init();
 [e ( _lcd_clear ..  ]
-"161
-[; ;main.c: 161:     T1CON = 0b00110001;
+"230
+[; ;main.c: 230:     adc_init();
 [e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-"162
-[; ;main.c: 162: 
-[e ( _lcd_write (1 :s 28C ]
-"163
-[; ;main.c: 163:     TMR1H = 0x19;
+"231
+[; ;main.c: 231:     motor_init();
+[e ( _lcd_write (1 :s 33C ]
+"232
+[; ;main.c: 232:     UART_Init();
 [e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-"164
-[; ;main.c: 164:     TMR1L = 0x48;
-[e ( _lcd_write (1 :s 29C ]
-"165
-[; ;main.c: 165: 
+"233
+[; ;main.c: 233: 
+[e ( _lcd_write (1 :s 34C ]
+"234
+[; ;main.c: 234:     check_reset_cause();
 [e ( _lcd_data (1 -> -> 1 `i `uc ]
-"166
-[; ;main.c: 166:     PIR1bits.TMR1IF = 0;
+"235
+[; ;main.c: 235:     _delay((unsigned long)((5000)*(8000000/4000.0)));
 }
-[e :U 414 ]
-"168
-[; ;main.c: 168:     INTCONbits.PEIE = 1;
-[e $ ! && == -> . . _PORTCbits 0 1 `i -> 1 `i == -> _int0_triggered `i -> 0 `i 415  ]
+[e :U 437 ]
+"237
+[; ;main.c: 237:     lcd_set_cursor(1, 1);
+[e $ ! && == -> . . _PORTCbits 0 1 `i -> 1 `i == -> _int0_triggered `i -> 0 `i 438  ]
 {
-"169
-[; ;main.c: 169:     INTCONbits.GIE = 1;
+"238
+[; ;main.c: 238:     lcd_write("Bienvenido a ");
 [e = _int0_triggered -> -> 1 `i `uc ]
-"170
-[; ;main.c: 170: }
-[e $ ! < -> _piezas_contadas `i -> _piezas_objetivo `i 416  ]
+"239
+[; ;main.c: 239:     lcd_data(0);
+[e $ ! < -> _piezas_contadas `i -> _piezas_objetivo `i 439  ]
 {
-"171
-[; ;main.c: 171: 
-[e ++ _piezas_contadas -> -> 1 `i `Vuc ]
-"172
-[; ;main.c: 172: 
-[e ( _count_update_screen ..  ]
-"173
-[; ;main.c: 173: void main(void) {
+"240
+[; ;main.c: 240: 
+[e ++ _piezas_contadas -> -> 1 `i `uc ]
+"241
+[; ;main.c: 241:     lcd_set_cursor(2, 1);
+[e ( _count_update_screen (2 , _piezas_objetivo _piezas_contadas ]
+"242
+[; ;main.c: 242:     lcd_write("contador play...");
 }
-[e :U 416 ]
-"174
-[; ;main.c: 174: 
+[e :U 439 ]
+"243
+[; ;main.c: 243:     _delay((unsigned long)((5000)*(8000000/4000.0)));
 }
-[e $U 417  ]
-"175
-[; ;main.c: 175:     OSCCON = 0b01110010;
-[e :U 415 ]
-[e $ ! && == -> . . _PORTCbits 0 1 `i -> 0 `i == -> _int0_triggered `i -> 1 `i 418  ]
+[e $U 440  ]
+"244
+[; ;main.c: 244:     set_status("ask");
+[e :U 438 ]
+[e $ ! && == -> . . _PORTCbits 0 1 `i -> 0 `i == -> _int0_triggered `i -> 1 `i 441  ]
 {
-"176
-[; ;main.c: 176:     while (!OSCCONbits.IOFS);
+"245
+[; ;main.c: 245:     loop();
 [e = _int0_triggered -> -> 0 `i `uc ]
-"177
-[; ;main.c: 177:     _delay((unsigned long)((50)*(8000000/4000.0)));
+"246
+[; ;main.c: 246: 
 }
-[e :U 418 ]
-[e :U 417 ]
-"178
-[; ;main.c: 178: 
+[e :U 441 ]
+[e :U 440 ]
+"247
+[; ;main.c: 247: }
 }
-[e :U 404 ]
-[e $U 405  ]
-[e :U 406 ]
-"179
-[; ;main.c: 179:     TRISCbits.TRISC1 = 1;
+[e :U 425 ]
+[e $U 426  ]
+[e :U 427 ]
+"248
 }
-[e :U 401 ]
-"135
-[; ;main.c: 135:                 lcd_set_cursor(1, 1);
-[e $ == _status :s 21C 402  ]
-[e :U 403 ]
-"180
-[; ;main.c: 180:     lcd_init();
-[e :UE 400 ]
-}
-"182
-[; ;main.c: 182:     timer_init();
-[v _timer_init `(v ~T0 @X0 1 ef ]
-{
-[e :U _timer_init ]
-[f ]
-"183
-[; ;main.c: 183: 
-[e = . . _TRISAbits 0 1 -> -> 0 `i `uc ]
-"184
-[; ;main.c: 184:     lcd_set_cursor(1, 1);
-[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
-"187
-[; ;main.c: 187: 
-[e = _T1CON -> -> 49 `i `uc ]
-"189
-[; ;main.c: 189:     lcd_write("contador play...");
-[e = _TMR1H -> -> 25 `i `uc ]
-"190
-[; ;main.c: 190:     _delay((unsigned long)((1000)*(8000000/4000.0)));
-[e = _TMR1L -> -> 72 `i `uc ]
-"192
-[; ;main.c: 192:     loop();
-[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
-"193
-[; ;main.c: 193: 
-[e = . . _PIE1bits 0 0 -> -> 1 `i `uc ]
-"194
-[; ;main.c: 194: }
-[e = . . _INTCONbits 1 6 -> -> 1 `i `uc ]
-"195
-[e = . . _INTCONbits 1 7 -> -> 1 `i `uc ]
-"196
-[e :UE 419 ]
+[e :U 422 ]
+"197
+[; ;main.c: 197:                 lcd_set_cursor(1, 1);
+[e $ == _status :s 25C 423  ]
+[e :U 424 ]
+"249
+[e :UE 421 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"199
+"251
 [v _main `(v ~T0 @X0 1 ef ]
 {
 [e :U _main ]
 [f ]
-"201
+"253
 [e = _OSCCON -> -> 114 `i `uc ]
-"202
-[e $U 421  ]
-[e :U 422 ]
-[e :U 421 ]
-[e $ ! != -> . . _OSCCONbits 0 1 `i -> 0 `i 422  ]
-[e :U 423 ]
-"203
+"254
+[e $U 443  ]
+[e :U 444 ]
+[e :U 443 ]
+[e $ ! != -> . . _OSCCONbits 0 1 `i -> 0 `i 444  ]
+[e :U 445 ]
+"255
 [e ( __delay (1 -> * -> -> 50 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"205
+"257
 [e = . . _TRISCbits 0 1 -> -> 1 `i `uc ]
-"206
+"258
+[e = . . _TRISAbits 0 3 -> -> 0 `i `uc ]
+"259
+[e = . . _LATAbits 0 3 -> -> 0 `i `uc ]
+"260
 [e ( _lcd_init ..  ]
-"207
+"261
 [e ( _keypad_init ..  ]
-"208
-[e ( _timer_init ..  ]
-"210
+"262
+[e ( _timer1_init ..  ]
+"263
+[e ( _adc_init ..  ]
+"264
+[e ( _motor_init ..  ]
+"265
+[e ( _UART_Init ..  ]
+"267
+[e ( _check_reset_cause ..  ]
+"268
+[e ( __delay (1 -> * -> -> 5000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"269
+[e ( _lcd_clear ..  ]
+"270
 [e ( _lcd_set_cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
-"211
-[e ( _lcd_write (1 :s 30C ]
-"212
+"271
+[e ( _lcd_write (1 :s 35C ]
+"272
 [e ( _lcd_data (1 -> -> 0 `i `uc ]
-"214
+"274
 [e ( _lcd_set_cursor (2 , -> -> 2 `i `uc -> -> 1 `i `uc ]
-"215
-[e ( _lcd_write (1 :s 31C ]
-"216
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-"217
-[e ( _set_status (1 :s 32C ]
-"218
+"275
+[e ( _lcd_write (1 :s 36C ]
+"276
+[e ( __delay (1 -> * -> -> 5000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"277
+[e ( _set_status (1 :s 37C ]
+"278
 [e ( _loop ..  ]
-"220
-[e :UE 420 ]
+"280
+[e :UE 442 ]
 }
-[a 7C 115 116 111 112 95 101 109 101 114 103 101 110 99 121 0 ]
-[a 18C 115 116 111 112 95 101 109 101 114 103 101 110 99 121 0 ]
-[a 25C 115 116 111 112 95 101 109 101 114 103 101 110 99 121 0 ]
-[a 4C 102 97 105 108 95 105 110 112 117 116 0 ]
-[a 14C 102 97 105 108 95 105 110 112 117 116 0 ]
-[a 6C 101 110 100 95 99 111 117 110 116 0 ]
-[a 23C 101 110 100 95 99 111 117 110 116 0 ]
-[a 27C 101 110 100 95 99 111 117 110 116 0 ]
-[a 5C 99 111 117 110 116 0 ]
-[a 13C 99 111 117 110 116 0 ]
-[a 22C 99 111 117 110 116 0 ]
+[p f _sprintf 8389632 ]
+[a 10C 115 116 111 112 95 101 109 101 114 103 101 110 99 121 0 ]
+[a 21C 115 116 111 112 95 101 109 101 114 103 101 110 99 121 0 ]
+[a 22C 115 116 111 112 95 101 109 101 114 103 101 110 99 121 0 ]
+[a 30C 115 116 111 112 95 101 109 101 114 103 101 110 99 121 0 ]
+[a 7C 102 97 105 108 95 105 110 112 117 116 0 ]
+[a 17C 102 97 105 108 95 105 110 112 117 116 0 ]
+[a 9C 101 110 100 95 99 111 117 110 116 0 ]
+[a 28C 101 110 100 95 99 111 117 110 116 0 ]
+[a 32C 101 110 100 95 99 111 117 110 116 0 ]
+[a 8C 99 111 117 110 116 0 ]
+[a 16C 99 111 117 110 116 0 ]
+[a 23C 99 111 117 110 116 0 ]
+[a 24C 99 111 117 110 116 0 ]
 [a 26C 99 111 117 110 116 0 ]
-[a 28C 79 98 106 101 116 105 118 111 67 117 109 112 108 105 100 111 0 ]
-[a 15C 86 97 108 111 114 32 73 110 118 97 108 105 100 111 0 ]
-[a 3C 97 115 107 0 ]
-[a 10C 97 115 107 0 ]
-[a 12C 97 115 107 0 ]
-[a 17C 97 115 107 0 ]
-[a 21C 97 115 107 0 ]
-[a 24C 97 115 107 0 ]
-[a 32C 97 115 107 0 ]
+[a 31C 99 111 117 110 116 0 ]
+[a 33C 79 98 106 101 116 105 118 111 67 117 109 112 108 105 100 111 0 ]
+[a 18C 86 97 108 111 114 32 73 110 118 97 108 105 100 111 0 ]
+[a 6C 97 115 107 0 ]
+[a 13C 97 115 107 0 ]
+[a 15C 97 115 107 0 ]
+[a 20C 97 115 107 0 ]
+[a 25C 97 115 107 0 ]
+[a 27C 97 115 107 0 ]
+[a 29C 97 115 107 0 ]
+[a 37C 97 115 107 0 ]
 [a 1C 119 101 108 99 111 109 101 0 ]
-[a 2C 119 101 108 99 111 109 101 0 ]
-[a 11C 80 105 101 122 97 115 32 97 32 99 111 110 116 97 114 58 0 ]
-[a 19C 79 98 106 101 116 105 118 111 58 0 ]
-[a 20C 70 97 108 116 97 110 58 0 ]
-[a 16C 83 111 108 111 32 49 32 97 32 53 57 0 ]
-[a 31C 99 111 110 116 97 100 111 114 32 112 108 97 121 46 46 46 0 ]
-[a 29C 80 114 101 115 105 111 110 101 32 79 75 46 46 46 0 ]
-[a 9C 33 33 33 69 77 69 82 71 69 78 67 73 65 33 33 33 0 ]
-[a 30C 66 105 101 110 118 101 110 105 100 111 32 97 32 0 ]
-[a 8C 32 32 33 33 33 80 65 82 65 68 65 33 33 33 32 32 0 ]
+[a 5C 119 101 108 99 111 109 101 0 ]
+[a 3C 70 97 108 108 97 32 100 101 32 101 110 101 114 103 105 97 0 ]
+[a 4C 70 97 108 108 97 32 100 101 32 101 110 101 114 103 105 97 0 ]
+[a 14C 80 105 101 122 97 115 32 97 32 99 111 110 116 97 114 58 0 ]
+[a 19C 83 111 108 111 32 49 32 97 32 53 57 0 ]
+[a 36C 99 111 110 116 97 100 111 114 32 112 108 97 121 46 46 46 0 ]
+[a 34C 80 114 101 115 105 111 110 101 32 79 75 46 46 46 0 ]
+[a 12C 33 33 33 69 77 69 82 71 69 78 67 73 65 33 33 33 0 ]
+[a 35C 66 105 101 110 118 101 110 105 100 111 32 97 32 0 ]
+[a 11C 32 32 33 33 33 80 65 82 65 68 65 33 33 33 32 32 0 ]
+[a 2C 86 97 108 111 114 32 100 101 108 32 65 68 67 58 32 37 117 13 10 0 ]

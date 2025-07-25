@@ -5738,6 +5738,165 @@ unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 # 34 "/Applications/microchip/xc8/v3.00/pic/include/xc.h" 2 3
 # 2 "main.c" 2
+# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdio.h" 1 3
+# 24 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdio.h" 3
+# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 1 3
+# 12 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+typedef void * va_list[1];
+
+
+
+
+typedef void * __isoc_va_list[1];
+# 143 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+typedef __int24 ssize_t;
+# 255 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+typedef long long off_t;
+# 409 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+typedef struct _IO_FILE FILE;
+# 25 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdio.h" 2 3
+# 52 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdio.h" 3
+typedef union _G_fpos64_t {
+ char __opaque[16];
+ double __align;
+} fpos_t;
+
+extern FILE *const stdin;
+extern FILE *const stdout;
+extern FILE *const stderr;
+
+
+
+
+
+FILE *fopen(const char *restrict, const char *restrict);
+FILE *freopen(const char *restrict, const char *restrict, FILE *restrict);
+int fclose(FILE *);
+
+int remove(const char *);
+int rename(const char *, const char *);
+
+int feof(FILE *);
+int ferror(FILE *);
+int fflush(FILE *);
+void clearerr(FILE *);
+
+int fseek(FILE *, long, int);
+long ftell(FILE *);
+void rewind(FILE *);
+
+int fgetpos(FILE *restrict, fpos_t *restrict);
+int fsetpos(FILE *, const fpos_t *);
+
+size_t fread(void *restrict, size_t, size_t, FILE *restrict);
+size_t fwrite(const void *restrict, size_t, size_t, FILE *restrict);
+
+int fgetc(FILE *);
+int getc(FILE *);
+int getchar(void);
+
+
+
+
+
+int ungetc(int, FILE *);
+int getch(void);
+
+int fputc(int, FILE *);
+int putc(int, FILE *);
+int putchar(int);
+
+
+
+
+
+void putch(char);
+
+char *fgets(char *restrict, int, FILE *restrict);
+
+char *gets(char *);
+
+
+int fputs(const char *restrict, FILE *restrict);
+int puts(const char *);
+
+__attribute__((__format__(__printf__, 1, 2)))
+int printf(const char *restrict, ...);
+__attribute__((__format__(__printf__, 2, 3)))
+int fprintf(FILE *restrict, const char *restrict, ...);
+__attribute__((__format__(__printf__, 2, 3)))
+int sprintf(char *restrict, const char *restrict, ...);
+__attribute__((__format__(__printf__, 3, 4)))
+int snprintf(char *restrict, size_t, const char *restrict, ...);
+
+__attribute__((__format__(__printf__, 1, 0)))
+int vprintf(const char *restrict, __isoc_va_list);
+int vfprintf(FILE *restrict, const char *restrict, __isoc_va_list);
+__attribute__((__format__(__printf__, 2, 0)))
+int vsprintf(char *restrict, const char *restrict, __isoc_va_list);
+__attribute__((__format__(__printf__, 3, 0)))
+int vsnprintf(char *restrict, size_t, const char *restrict, __isoc_va_list);
+
+__attribute__((__format__(__scanf__, 1, 2)))
+int scanf(const char *restrict, ...);
+__attribute__((__format__(__scanf__, 2, 3)))
+int fscanf(FILE *restrict, const char *restrict, ...);
+__attribute__((__format__(__scanf__, 2, 3)))
+int sscanf(const char *restrict, const char *restrict, ...);
+
+__attribute__((__format__(__scanf__, 1, 0)))
+int vscanf(const char *restrict, __isoc_va_list);
+int vfscanf(FILE *restrict, const char *restrict, __isoc_va_list);
+__attribute__((__format__(__scanf__, 2, 0)))
+int vsscanf(const char *restrict, const char *restrict, __isoc_va_list);
+
+void perror(const char *);
+
+int setvbuf(FILE *restrict, char *restrict, int, size_t);
+void setbuf(FILE *restrict, char *restrict);
+
+char *tmpnam(char *);
+FILE *tmpfile(void);
+
+
+
+
+FILE *fmemopen(void *restrict, size_t, const char *restrict);
+FILE *open_memstream(char **, size_t *);
+FILE *fdopen(int, const char *);
+FILE *popen(const char *, const char *);
+int pclose(FILE *);
+int fileno(FILE *);
+int fseeko(FILE *, off_t, int);
+off_t ftello(FILE *);
+int dprintf(int, const char *restrict, ...);
+int vdprintf(int, const char *restrict, __isoc_va_list);
+void flockfile(FILE *);
+int ftrylockfile(FILE *);
+void funlockfile(FILE *);
+int getc_unlocked(FILE *);
+int getchar_unlocked(void);
+int putc_unlocked(int, FILE *);
+int putchar_unlocked(int);
+ssize_t getdelim(char **restrict, size_t *restrict, int, FILE *restrict);
+ssize_t getline(char **restrict, size_t *restrict, FILE *restrict);
+int renameat(int, const char *, int, const char *);
+char *ctermid(char *);
+
+
+
+
+
+
+
+char *tempnam(const char *, const char *);
+# 3 "main.c" 2
+
+# 1 "./motor.h" 1
+# 17 "./motor.h"
+void motor_control(unsigned int value);
+void motor_init(void);
+# 5 "main.c" 2
 # 1 "./lcd.h" 1
 # 17 "./lcd.h"
 void lcd_init(void);
@@ -5746,7 +5905,10 @@ void lcd_cmd(unsigned char cmd);
 void lcd_data(unsigned char data);
 void lcd_set_cursor(unsigned char row, unsigned char col);
 void lcd_write(const char *str);
-# 3 "main.c" 2
+void lcd_create_char(unsigned char location, unsigned char *charmap);
+void load_custom_characters(void);
+void count_update_screen(unsigned char piezas_obj, unsigned char piezas_cont);
+# 6 "main.c" 2
 # 1 "./keypad.h" 1
 
 
@@ -5757,15 +5919,51 @@ void lcd_write(const char *str);
 
 void keypad_init(void);
 char keypad_get_key(void);
-# 4 "main.c" 2
+# 7 "main.c" 2
+# 1 "./display.h" 1
+# 20 "./display.h"
+void send_display(unsigned char units);
+void display_init(void);
+# 8 "main.c" 2
+# 1 "./rgb.h" 1
+# 19 "./rgb.h"
+void rgb_init(void);
+void send_rgb(unsigned char units);
+# 9 "main.c" 2
+# 1 "./adc.h" 1
+# 14 "./adc.h"
+void adc_init(void);
+unsigned int adc_read(void);
+# 10 "main.c" 2
+# 1 "./uart.h" 1
+# 14 "./uart.h"
+void UART_Init(void);
+
+void UART_Write(char data);
+
+void UART_Write_Text(const char* text);
+
+void handle_serial_command(char cmd);
+
+char UART_Read(void);
+# 11 "main.c" 2
+# 1 "./timer.h" 1
+# 16 "./timer.h"
+void timer1_init(void);
+# 12 "main.c" 2
 
 
 
-volatile unsigned char piezas_contadas = 0;
+
+
+
+unsigned char piezas_contadas = 0;
 unsigned char piezas_objetivo = 0;
 char *status = "welcome";
 volatile unsigned int led_estado = 0;
+volatile unsigned int led_lbk_estado = 0;
 volatile unsigned char int0_triggered = 0;
+volatile unsigned char t3_interrupts = 0;
 
 #pragma config FOSC = INTOSCIO_EC
 #pragma config WDT = OFF
@@ -5774,48 +5972,76 @@ volatile unsigned char int0_triggered = 0;
 #pragma config LVP = OFF
 #pragma config PBADEN = OFF
 
+void motor_control_with_level(unsigned int value);
+
+void IntToString(unsigned int value, char* buffer) {
+    sprintf(buffer, "Valor del ADC: %u\r\n", value);
+}
+
+void check_reset_cause() {
+    if (RCONbits.POR) {
+        lcd_clear();
+        lcd_set_cursor(1, 1);
+        lcd_write("Falla de energia");
+    } else if (RCONbits.RI) {
+        lcd_clear();
+        lcd_set_cursor(1, 1);
+        lcd_write("Falla de energia");
+    }
+
+
+    RCONbits.POR = 0;
+    RCONbits.RI = 0;
+}
+
 void set_status(char *new_status) {
     status = new_status;
+    send_display(0);
     if (new_status == "welcome"){
-
+        send_rgb(6);
     }
     else if (new_status == "ask") {
-
+        piezas_contadas = 0;
+        send_rgb(6);
     }
     else if (new_status == "fail_input") {
-
+        send_rgb(6);
     }
     else if (new_status == "count") {
-
+        piezas_contadas = 0;
+        count_update_screen(piezas_objetivo, piezas_contadas);
+        send_rgb(0);
     }
     else if (new_status == "end_count") {
-
+        send_rgb(6);
     }
     else if (new_status == "stop_emergency") {
+        send_rgb(7);
         lcd_clear();
         lcd_set_cursor(1, 1);
         lcd_write("  !!!PARADA!!!  ");
         lcd_set_cursor(2, 1);
         lcd_write("!!!EMERGENCIA!!!");
+        motor_control(0);
 
         __asm(" sleep");
     }
 }
 
-unsigned char get_valid_input() {
+unsigned char get_valid_input_count(void) {
     char buffer[3] = {0};
     char key;
     int index;
     int value;
 
-    while (1) {
+    while (status == "ask") {
         index = 0;
         lcd_clear();
         lcd_write("Piezas a contar:");
         lcd_set_cursor(2, 1);
         lcd_cmd(0x0E);
 
-        while (1) {
+        while (status == "ask") {
             key = keypad_get_key();
             if (key >= '0' && key <= '9' && index < 2) {
                 buffer[index++] = key;
@@ -5831,7 +6057,7 @@ unsigned char get_valid_input() {
                 if (value >= 1 && value <= 59) {
                     lcd_cmd(0x0C);
                     set_status("count");
-                    return value;
+                    piezas_objetivo = value;
                 } else {
                     set_status("fail_input");
                     lcd_clear();
@@ -5845,71 +6071,124 @@ unsigned char get_valid_input() {
             } else if (key == 'B') {
                 set_status("stop_emergency");
             }
+            else if (key == 'D') {
+                led_lbk_estado ^= 1;
+                LATAbits.LATA3 = led_lbk_estado;
+            }
+            if (PIR1bits.RCIF) {
+                char c = UART_Read();
+                UART_Write(c);
+                handle_serial_command(c);
+            }
         }
     }
 }
 
-void count_update_screen(void) {
+void handle_serial_command(char cmd) {
+    switch(cmd) {
+        case 'P':
+        case 'p':
+            set_status("stop_emergency");
+            break;
+        case 'E':
+        case 'e':
 
-    lcd_clear();
-    lcd_set_cursor(1, 1);
-    lcd_write("Objetivo:");
-    lcd_set_cursor(1, 11);
-    lcd_data((piezas_objetivo / 10) + '0');
-    lcd_data((piezas_objetivo % 10) + '0');
+            motor_control(1);
+            break;
+        case 'A':
+        case 'a':
+            motor_control(0);
 
-    lcd_set_cursor(2, 1);
-    lcd_write("Faltan:");
-    lcd_set_cursor(2, 9);
-    lcd_data(( (piezas_objetivo-piezas_contadas) / 10) + '0');
-    lcd_data(( (piezas_objetivo-piezas_contadas) % 10) + '0');
+            break;
+        case 'R':
+        case 'r':
+            if (status == "count") {
+                set_status("count");
+            }
+
+            break;
+        default:
+
+            break;
+    }
+}
+
+void __attribute__((picinterrupt(("")))) isr(void) {
+    if (PIR1bits.TMR1IF) {
+        PIR1bits.TMR1IF = 0;
+
+
+        TMR1H = 0x0B;
+        TMR1L = 0xDC;
+
+        led_estado ^= 1;
+        LATAbits.LATA1 = led_estado;
+
+        t3_interrupts++;
+        if (t3_interrupts >= 2) {
+            char buffer[20];
+            unsigned int value = adc_read();
+            motor_control_with_level(value);
+            IntToString(value, buffer);
+            UART_Write_Text(buffer);
+        }
+    }
 }
 
 void loop(void) {
-    while(1) {
-        set_status("ask");
-        piezas_objetivo = get_valid_input();
-        count_update_screen();
+    while(status == "ask") {
+        get_valid_input_count();
+        count_update_screen(piezas_objetivo, piezas_contadas);
+
         while (1) {
+            if (PIR1bits.RCIF) {
+                char c = UART_Read();
+                UART_Write(c);
+                handle_serial_command(c);
+            }
             char key = keypad_get_key();
             if (key == '*') {
-                piezas_contadas = 0;
                 set_status("count");
-                count_update_screen();
             }
-            else if (key == '#') {
-                piezas_contadas = 0;
+            if (key == '#') {
                 set_status("ask");
                 break;
             }
+            else if (key == 'D') {
+                led_lbk_estado ^= 1;
+                LATAbits.LATA3 = led_lbk_estado;
+            }
             else if (key == 'A' && status == "end_count") {
-                piezas_contadas = 0;
                 set_status("ask");
                 break;
             }
             else if (key == 'B') {
                 set_status("stop_emergency");
             }
+
             if ((piezas_contadas >= piezas_objetivo) && status == "count") {
                 set_status("end_count");
                 lcd_clear();
                 lcd_set_cursor(1, 1);
-                lcd_write("Objetivo cumplido");
+                lcd_write("ObjetivoCumplido");
                 lcd_set_cursor(2, 1);
                 lcd_write("Presione OK...");
+                lcd_data(1);
             }
 
-            if (int0_triggered) {
-                int0_triggered = 0;
+            if (PORTCbits.RC1 == 1 && int0_triggered == 0) {
+                int0_triggered = 1;
                 if (piezas_contadas < piezas_objetivo) {
                     piezas_contadas++;
-                    count_update_screen();
+                    count_update_screen(piezas_objetivo, piezas_contadas);
                 }
+            }
+            else if (PORTCbits.RC1 == 0 && int0_triggered == 1) {
+                int0_triggered = 0;
             }
         }
     }
 }
-
 
 void main(void) {
 
@@ -5917,16 +6196,27 @@ void main(void) {
     while (!OSCCONbits.IOFS);
     _delay((unsigned long)((50)*(8000000/4000.0)));
 
+    TRISCbits.TRISC1 = 1;
+    TRISAbits.TRISA3 = 0;
+    LATAbits.LATA3 = 0;
     lcd_init();
     keypad_init();
+    timer1_init();
+    adc_init();
+    motor_init();
+    UART_Init();
 
+    check_reset_cause();
+    _delay((unsigned long)((5000)*(8000000/4000.0)));
+    lcd_clear();
     lcd_set_cursor(1, 1);
-    lcd_write("Bienvenido a");
+    lcd_write("Bienvenido a ");
+    lcd_data(0);
 
     lcd_set_cursor(2, 1);
     lcd_write("contador play...");
     _delay((unsigned long)((5000)*(8000000/4000.0)));
-
+    set_status("ask");
     loop();
 
 }

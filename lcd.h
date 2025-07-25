@@ -22,6 +22,7 @@ void lcd_set_cursor(unsigned char row, unsigned char col);
 void lcd_write(const char *str);
 void lcd_create_char(unsigned char location, unsigned char *charmap);
 void load_custom_characters(void);
+void count_update_screen(unsigned char piezas_obj, unsigned char piezas_cont);
 
 
 #endif
